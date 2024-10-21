@@ -1,0 +1,8 @@
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/edit_cache.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/install.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/install/local.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/install/strip.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen_timestamp_deps.dir
+C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir

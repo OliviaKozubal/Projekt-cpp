@@ -1,0 +1,15 @@
+# ninja log v5
+5	491	7511440527656178	Projectcpp_autogen/timestamp	68cc95c298bc5e28
+5	491	7511440527656178	Projectcpp_autogen/mocs_compilation.cpp	68cc95c298bc5e28
+5	491	7511440527656178	C:/Users/Holin/Desktop/Projectcpp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Projectcpp_autogen/timestamp	68cc95c298bc5e28
+5	491	7511440527656178	C:/Users/Holin/Desktop/Projectcpp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Projectcpp_autogen/mocs_compilation.cpp	68cc95c298bc5e28
+501	2228	7511440545494552	CMakeFiles/Projectcpp.dir/mainwindow.cpp.obj	c3ce8348ff00c42
+495	2229	7511440545504555	CMakeFiles/Projectcpp.dir/Projectcpp_autogen/mocs_compilation.cpp.obj	49aecb7b462e1838
+499	2268	7511440545911306	CMakeFiles/Projectcpp.dir/main.cpp.obj	28ff04a8d29a6bcf
+2269	2414	7511440547303579	Projectcpp.exe	54187125b49bfa0d
+18	126	7511440638585409	Projectcpp_autogen/timestamp	68cc95c298bc5e28
+18	126	7511440638585409	Projectcpp_autogen/mocs_compilation.cpp	68cc95c298bc5e28
+18	126	7511440638585409	C:/Users/Holin/Desktop/Projectcpp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Projectcpp_autogen/timestamp	68cc95c298bc5e28
+18	126	7511440638585409	C:/Users/Holin/Desktop/Projectcpp/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Projectcpp_autogen/mocs_compilation.cpp	68cc95c298bc5e28
+134	1663	7511440686577563	CMakeFiles/Projectcpp.dir/mainwindow.cpp.obj	c3ce8348ff00c42
+1663	1797	7511440687893469	Projectcpp.exe	54187125b49bfa0d
