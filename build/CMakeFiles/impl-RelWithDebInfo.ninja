@@ -44,74 +44,82 @@ include CMakeFiles/common.ninja
 build cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO: phony || Project-cpp_autogen$:RelWithDebInfo Project-cpp_autogen/mocs_compilation_RelWithDebInfo.cpp Project-cpp_autogen/timestamp Project-cpp_autogen_timestamp_deps$:RelWithDebInfo qrc_zasoby.cpp
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/Project-cpp_autogen/mocs_compilation_RelWithDebInfo.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/mocs_compilation_RelWithDebInfo.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Project-cpp_autogen\mocs_compilation_RelWithDebInfo.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Project-cpp_autogen
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/main.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/main.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\main.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/mainwindow.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/mainwindow.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\mainwindow.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/Kalendarz.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Kalendarz.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Kalendarz.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/Kierowcy.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Kierowcy.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Kierowcy.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/Wyniki.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Wyniki.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/Zespoly.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Zespoly.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Zespoly.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/Glowna.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Glowna.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\Glowna.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
+  OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
+
+build CMakeFiles/Project-cpp.dir/RelWithDebInfo/FetchData.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/FetchData.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\FetchData.cpp.obj.d
+  FLAGS = -O2 -g -DNDEBUG -std=gnu++17
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
 build CMakeFiles/Project-cpp.dir/RelWithDebInfo/qrc_zasoby.cpp.obj: CXX_COMPILER__Project-cpp_unscanned_RelWithDebInfo C$:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/qrc_zasoby.cpp || cmake_object_order_depends_target_Project-cpp_RELWITHDEBINFO
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DCMAKE_INTDIR=\"RelWithDebInfo\"
   DEP_FILE = CMakeFiles\Project-cpp.dir\RelWithDebInfo\qrc_zasoby.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++17
-  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
 
@@ -123,10 +131,10 @@ build CMakeFiles/Project-cpp.dir/RelWithDebInfo/qrc_zasoby.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable RelWithDebInfo\Project-cpp.exe
 
-build RelWithDebInfo/Project-cpp.exe: CXX_EXECUTABLE_LINKER__Project-cpp_RelWithDebInfo CMakeFiles/Project-cpp.dir/RelWithDebInfo/Project-cpp_autogen/mocs_compilation_RelWithDebInfo.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/mainwindow.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Kalendarz.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Kierowcy.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Wyniki.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Zespoly.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Glowna.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/qrc_zasoby.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || Project-cpp_autogen$:RelWithDebInfo Project-cpp_autogen_timestamp_deps$:RelWithDebInfo
+build RelWithDebInfo/Project-cpp.exe: CXX_EXECUTABLE_LINKER__Project-cpp_RelWithDebInfo CMakeFiles/Project-cpp.dir/RelWithDebInfo/Project-cpp_autogen/mocs_compilation_RelWithDebInfo.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/main.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/mainwindow.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Kalendarz.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Kierowcy.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Wyniki.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Zespoly.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/Glowna.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/FetchData.cpp.obj CMakeFiles/Project-cpp.dir/RelWithDebInfo/qrc_zasoby.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || Project-cpp_autogen$:RelWithDebInfo Project-cpp_autogen_timestamp_deps$:RelWithDebInfo
   FLAGS = -O2 -g -DNDEBUG
   LINK_FLAGS = -mwindows
-  LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Network.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Project-cpp.dir\RelWithDebInfo
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -169,7 +177,7 @@ build Project-cpp_autogen/timestamp Project-cpp_autogen/mocs_compilation_RelWith
 #############################################
 # Phony custom command for CMakeFiles\Project-cpp_autogen_timestamp_deps-RelWithDebInfo
 
-build CMakeFiles/Project-cpp_autogen_timestamp_deps-RelWithDebInfo | ${cmake_ninja_workdir}CMakeFiles/Project-cpp_autogen_timestamp_deps-RelWithDebInfo: phony C$:/Qt/6.8.0/mingw_64/bin/uic.exe C$:/Qt/6.8.0/mingw_64/bin/moc.exe C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/Project-cpp_autogen_timestamp_deps-RelWithDebInfo | ${cmake_ninja_workdir}CMakeFiles/Project-cpp_autogen_timestamp_deps-RelWithDebInfo: phony C$:/Qt/6.8.0/mingw_64/bin/uic.exe C$:/Qt/6.8.0/mingw_64/bin/moc.exe C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Network.a
 
 
 #############################################

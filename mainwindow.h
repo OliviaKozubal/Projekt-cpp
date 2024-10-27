@@ -4,13 +4,13 @@
 #include <QWidget>
 #include <QStackedWidget>
 #include <QPushButton>
+#include <QMainWindow>
 
-class MainWindow : public QWidget {
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-
+    explicit MainWindow(QWidget *parent = nullptr);
 private:
     QStackedWidget *stackedWidget;
 

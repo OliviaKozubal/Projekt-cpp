@@ -2,11 +2,15 @@
 #define GLOWNA_H
 
 #include <QWidget>
+#include <QLabel>
+#include <QVBoxLayout>
 
 class Glowna : public QWidget {
     Q_OBJECT
 
 public:
     Glowna(QWidget *parent = nullptr);
+    
 };
+
 #endif // GLOWNA_H

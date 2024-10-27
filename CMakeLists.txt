@@ -11,6 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Network)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -26,6 +27,8 @@ set(PROJECT_SOURCES
         Zespoly.h
         Glowna.cpp
         Glowna.h
+        FetchData.cpp
+        FetchData.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -52,7 +55,7 @@ else()
 endif()
 
 Qt6_add_resources(RESOURCES zasoby.qrc)
-target_link_libraries(Project-cpp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Project-cpp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Network)
 target_sources(Project-cpp PRIVATE ${RESOURCES})
 
 
