@@ -15,11 +15,7 @@ private:
     QStackedWidget *stackedWidget;
 
 private slots:
-    void goToGlowna();
-    void goToKalendarz();
-    void goToWyniki();
-    void goToKierowcy();
-    void goToZespoly();
+    void NaStrone(int index);
 };
 
 #endif // MAINWINDOW_H

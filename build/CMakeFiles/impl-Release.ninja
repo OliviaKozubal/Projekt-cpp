@@ -177,7 +177,7 @@ build Project-cpp_autogen/timestamp Project-cpp_autogen/mocs_compilation_Release
 #############################################
 # Phony custom command for CMakeFiles\Project-cpp_autogen_timestamp_deps-Release
 
-build CMakeFiles/Project-cpp_autogen_timestamp_deps-Release | ${cmake_ninja_workdir}CMakeFiles/Project-cpp_autogen_timestamp_deps-Release: phony C$:/Qt/6.8.0/mingw_64/bin/uic.exe C$:/Qt/6.8.0/mingw_64/bin/moc.exe C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Network.a
+build CMakeFiles/Project-cpp_autogen_timestamp_deps-Release | ${cmake_ninja_workdir}CMakeFiles/Project-cpp_autogen_timestamp_deps-Release: phony C$:/Qt/6.8.0/mingw_64/bin/uic.exe C$:/Qt/6.8.0/mingw_64/bin/moc.exe C$:/Qt/6.8.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################

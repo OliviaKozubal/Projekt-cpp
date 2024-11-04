@@ -29,13 +29,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 
     QHBoxLayout *poziomo = new QHBoxLayout();
     QStringList etykiety = { "Główna", "Kalendarz", "Wyniki", "Kierowcy", "Zespoły"};
-    QList<void(MainWindow::*)()> funkcje = { &MainWindow::goToGlowna, &MainWindow::goToKalendarz, &MainWindow::goToWyniki, &MainWindow::goToKierowcy, &MainWindow::goToZespoly};
     
     for (int i = 0; i < etykiety.size(); ++i) {
         QPushButton *button = new QPushButton(etykiety[i], this);
+        button->setStyleSheet("QPushButton { border: 2px solid red; border-radius: 10px; font-size: 16px; font-weight: bold;}");
         button->setMinimumHeight(50);
         poziomo->addWidget(button);
-        connect(button, &QPushButton::clicked, this, funkcje[i]);
+        connect(button, &QPushButton::clicked, this, [=]() { NaStrone(i); });
     }
 
     mainLayout->addLayout(poziomo);
@@ -43,24 +43,6 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     showMaximized();
 }
 
-void MainWindow::goToGlowna() {
-    stackedWidget->setCurrentIndex(0);
-}
-
-void MainWindow::goToKalendarz() {
-    stackedWidget->setCurrentIndex(1);
-}
-
-void MainWindow::goToWyniki() {
-    stackedWidget->setCurrentIndex(2);
-}
-
-void MainWindow::goToKierowcy() {
-    stackedWidget->setCurrentIndex(3);
-}
-
-void MainWindow::goToZespoly() {
-    stackedWidget->setCurrentIndex(4);
-
-
+void MainWindow::NaStrone(int index) {
+    stackedWidget->setCurrentIndex(index);
 }
