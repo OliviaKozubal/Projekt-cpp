@@ -14,6 +14,7 @@ Glowna::Glowna(QWidget *parent) : QWidget(parent) {
     this->setStyleSheet("QLabel { font-size: 14px; }");
     QLabel *NazwaWyscigLabel = new QLabel(this);
     QLabel *DataWyscigLabel = new QLabel(this);
+    QLabel *DataQualiLabel = new QLabel(this);
     QLabel *LokalizacjaLabel = new QLabel(this);
     QLabel *LicznikLabel = new QLabel(this);
 
@@ -21,6 +22,7 @@ Glowna::Glowna(QWidget *parent) : QWidget(parent) {
     infoLayout->setContentsMargins(10, 10, 10, 10);
     infoLayout->setSpacing(5);
     infoLayout->addWidget(NazwaWyscigLabel);
+    infoLayout->addWidget(DataQualiLabel);
     infoLayout->addWidget(DataWyscigLabel);
     infoLayout->addWidget(LokalizacjaLabel);
     infoLayout->addWidget(LicznikLabel);
@@ -55,9 +57,10 @@ Glowna::Glowna(QWidget *parent) : QWidget(parent) {
 
     FetchData *fetch = new FetchData(this);
 
-    connect(fetch, &FetchData::Pobrano, this, [=](const QString &NazwaWyscig, const QString &DataCzas, const QString &Lokalizacja) {
+    connect(fetch, &FetchData::NastepnyPobrano, this, [=](const QString &NazwaWyscig, const QString &DataCzas, const QString &DataQuali, const QString &Lokalizacja) {
         NazwaWyscigLabel->setText("Nazwa wyścigu: <b>" + NazwaWyscig + "</b>");
         DataWyscigLabel->setText("Data i czas wyścigu: <b>" + DataCzas + "</b>");
+        DataQualiLabel->setText("Data i czas kwalifikacji: <b>" + DataQuali + "</b>");
         LokalizacjaLabel->setText("Lokalizacja: <b>" + Lokalizacja + "</b>");
 
         // Ustawienie daty i godziny wyścigu

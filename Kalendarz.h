@@ -8,6 +8,7 @@ class Kalendarz : public QWidget {
 
 public:
     Kalendarz(QWidget *parent = nullptr);
+
 };
 
 #endif // KALENDARZ_H

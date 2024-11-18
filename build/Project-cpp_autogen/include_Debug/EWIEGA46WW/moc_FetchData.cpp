@@ -38,10 +38,11 @@ namespace {
 struct qt_meta_stringdata_CLASSFetchDataENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSFetchDataENDCLASS = QtMocHelpers::stringData(
     "FetchData",
-    "Pobrano",
+    "NastepnyPobrano",
     "",
     "NazwaWyscig",
     "DataCzas",
+    "DataQuali",
     "Lokalizacja",
     "OstatniPobrano",
     "NazwaWyscigo",
@@ -54,6 +55,8 @@ constexpr auto qt_meta_stringdata_CLASSFetchDataENDCLASS = QtMocHelpers::stringD
     "RankingPobrano",
     "QList<QStringList>",
     "rankings",
+    "KierowcyPobrano",
+    "kierowcy",
     "onNetworkReply",
     "QNetworkReply*",
     "reply"
@@ -69,28 +72,30 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFetchDataENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       3,       // signalCount
+       4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    3,   38,    2, 0x06,    1 /* Public */,
-       6,    7,   45,    2, 0x06,    5 /* Public */,
-      14,    1,   60,    2, 0x06,   13 /* Public */,
+       1,    4,   44,    2, 0x06,    1 /* Public */,
+       7,    7,   53,    2, 0x06,    6 /* Public */,
+      15,    1,   68,    2, 0x06,   14 /* Public */,
+      18,    1,   71,    2, 0x06,   16 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      17,    1,   63,    2, 0x08,   15 /* Private */,
+      20,    1,   74,    2, 0x08,   18 /* Private */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,    3,    4,    5,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    7,    8,    9,   10,   11,   12,   13,
-    QMetaType::Void, 0x80000000 | 15,   16,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    3,    4,    5,    6,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    8,    9,   10,   11,   12,   13,   14,
+    QMetaType::Void, 0x80000000 | 16,   17,
+    QMetaType::Void, 0x80000000 | 16,   19,
 
  // slots: parameters
-    QMetaType::Void, 0x80000000 | 18,   19,
+    QMetaType::Void, 0x80000000 | 21,   22,
 
        0        // eod
 };
@@ -104,8 +109,9 @@ Q_CONSTINIT const QMetaObject FetchData::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSFetchDataENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<FetchData, std::true_type>,
-        // method 'Pobrano'
+        // method 'NastepnyPobrano'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
@@ -121,6 +127,9 @@ Q_CONSTINIT const QMetaObject FetchData::staticMetaObject = { {
         // method 'RankingPobrano'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QList<QStringList> &, std::false_type>,
+        // method 'KierowcyPobrano'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QList<QStringList> &, std::false_type>,
         // method 'onNetworkReply'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QNetworkReply *, std::false_type>
@@ -134,10 +143,11 @@ void FetchData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         auto *_t = static_cast<FetchData *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->Pobrano((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3]))); break;
+        case 0: _t->NastepnyPobrano((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[4]))); break;
         case 1: _t->OstatniPobrano((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[4])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[5])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[6])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[7]))); break;
         case 2: _t->RankingPobrano((*reinterpret_cast< std::add_pointer_t<QList<QStringList>>>(_a[1]))); break;
-        case 3: _t->onNetworkReply((*reinterpret_cast< std::add_pointer_t<QNetworkReply*>>(_a[1]))); break;
+        case 3: _t->KierowcyPobrano((*reinterpret_cast< std::add_pointer_t<QList<QStringList>>>(_a[1]))); break;
+        case 4: _t->onNetworkReply((*reinterpret_cast< std::add_pointer_t<QNetworkReply*>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -154,6 +164,13 @@ void FetchData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QList<QStringList> >(); break;
+            }
+            break;
+        case 4:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QNetworkReply* >(); break;
             }
             break;
@@ -161,8 +178,8 @@ void FetchData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (FetchData::*)(const QString & , const QString & , const QString & );
-            if (_t _q_method = &FetchData::Pobrano; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            using _t = void (FetchData::*)(const QString & , const QString & , const QString & , const QString & );
+            if (_t _q_method = &FetchData::NastepnyPobrano; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -178,6 +195,13 @@ void FetchData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
             using _t = void (FetchData::*)(const QList<QStringList> & );
             if (_t _q_method = &FetchData::RankingPobrano; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (FetchData::*)(const QList<QStringList> & );
+            if (_t _q_method = &FetchData::KierowcyPobrano; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 3;
                 return;
             }
         }
@@ -203,21 +227,21 @@ int FetchData::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }
 
 // SIGNAL 0
-void FetchData::Pobrano(const QString & _t1, const QString & _t2, const QString & _t3)
+void FetchData::NastepnyPobrano(const QString & _t1, const QString & _t2, const QString & _t3, const QString & _t4)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t4))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
@@ -233,5 +257,12 @@ void FetchData::RankingPobrano(const QList<QStringList> & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void FetchData::KierowcyPobrano(const QList<QStringList> & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_WARNING_POP
