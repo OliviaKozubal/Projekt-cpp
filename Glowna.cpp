@@ -71,13 +71,20 @@ Glowna::Glowna(QWidget *parent) : QWidget(parent) {
             QDateTime aktualny = QDateTime::currentDateTime();
             int CzasS = aktualny.secsTo(Czas);
             if (CzasS >= 0) {
-                int h = CzasS / 3600;
+                int dni = CzasS / 86400;
+                int h = (CzasS % 86400) / 3600;
                 int m = (CzasS % 3600) / 60;
                 int s = CzasS % 60;
-                LicznikLabel->setText(QString("Czas do wyścigu: <b>%1:%2:%3</b>")
-                    .arg(h, 2, 10, QLatin1Char('0'))
-                    .arg(m, 2, 10, QLatin1Char('0'))
-                    .arg(s, 2, 10, QLatin1Char('0')));
+
+                if (dni > 1)
+                    LicznikLabel->setText(QString("Czas do wyścigu: <b>%1 dni %2:%3:%4</b>").arg(dni).arg(h, 2, 10, QLatin1Char('0')).arg(m, 2, 10, QLatin1Char('0')).arg(s, 2, 10, QLatin1Char('0')));
+
+                else if (dni == 1)
+                    LicznikLabel->setText(QString("Czas do wyścigu: <b>%1 dzień %2:%3:%4</b>").arg(dni).arg(h, 2, 10, QLatin1Char('0')).arg(m, 2, 10, QLatin1Char('0')).arg(s, 2, 10, QLatin1Char('0')));
+
+                else
+                    LicznikLabel->setText(QString("Czas do wyścigu: <b>%1:%2:%3</b>").arg(h, 2, 10, QLatin1Char('0')).arg(m, 2, 10, QLatin1Char('0')).arg(s, 2, 10, QLatin1Char('0')));
+
             } else {
                 LicznikLabel->setText("Wyścig już się odbył!");
                 timer->stop();

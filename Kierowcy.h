@@ -8,6 +8,7 @@
 #include <QLabel>
 #include <QHeaderView>
 #include <QComboBox>
+#include <QLineEdit>
 #include <QHBoxLayout>
 
 class Kierowcy : public QWidget {
@@ -21,12 +22,18 @@ public slots:
     void wyswietlKierowcy(const QList<QStringList> &kierowcy);
     void onKierowcaClicked(int row, int column);
     void Sortuj(int index);
-    void Filtruj(int filtrIndex);
+    void FiltrujWyszukaj(int index);
+    void Wyszukaj();
 
 private:
     QVBoxLayout *layout;
-    QTableWidget *listaKierowcy;
+    QTableWidget *TablicaKierowcy;
     QList<QStringList> kierowcyLista;
+    QComboBox *sortComboBox;
+    QComboBox *filtrComboBox;
+    QLineEdit *searchLineEdit;
+    QComboBox *searchByComboBox;
+    QList<QStringList> przefiltrowani;
 };
 
 #endif // KIEROWCY_H

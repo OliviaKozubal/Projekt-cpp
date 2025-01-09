@@ -1,42 +1,51 @@
 #include "Kierowcy.h"
 #include "FetchData.h"
 
-Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(this)), listaKierowcy(new QTableWidget(this)) 
+Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(this)), TablicaKierowcy(new QTableWidget(this)), sortComboBox(new QComboBox(this)), filtrComboBox(new QComboBox(this)), searchLineEdit(new QLineEdit(this)), searchByComboBox(new QComboBox(this))
 {
-    listaKierowcy->setColumnCount(2);
-    listaKierowcy->setHorizontalHeaderLabels({"Imię i Nazwisko", "Narodowość"});
-    listaKierowcy->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-    layout->addWidget(listaKierowcy);
-    setLayout(layout);
+    TablicaKierowcy->setColumnCount(2);
+    TablicaKierowcy->setHorizontalHeaderLabels({"Imię i Nazwisko", "Narodowość"});
+    TablicaKierowcy->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    
+    searchByComboBox->addItem("Imię i Nazwisko");
+    searchByComboBox->addItem("Narodowość");
 
-    QComboBox *sortComboBox = new QComboBox(this);
     sortComboBox->addItem("Sortuj alfabetycznie rosnąco");
     sortComboBox->addItem("Sortuj alfabetycznie malejąco");
-
-    QHBoxLayout *sortLayout = new QHBoxLayout();
-    sortLayout->addWidget(sortComboBox);
-    sortLayout->addStretch();
-    
-    QComboBox *filtrComboBox = new QComboBox();
     filtrComboBox->addItem("Pokaż wszystkich");
     filtrComboBox->addItem("Mistrzowie świata");
 
-    layout->insertLayout(0, sortLayout);
+    QHBoxLayout *searchLayout = new QHBoxLayout();
+    searchLayout->addWidget(searchByComboBox);
+    searchLayout->addWidget(searchLineEdit);
+    searchLayout->addStretch();
 
+    QHBoxLayout *sortLayout = new QHBoxLayout();
+    sortLayout->addWidget(sortComboBox);
     sortLayout->addWidget(filtrComboBox);
+    sortLayout->addStretch();
+    
+    layout->addLayout(searchLayout);
+    layout->addLayout(sortLayout);
+    layout->addWidget(TablicaKierowcy);
 
-    connect(filtrComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Filtruj);
+    setLayout(layout);
+
+    //connect(filtrComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Filtruj);
     connect(sortComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Sortuj);
+    connect(TablicaKierowcy, &QTableWidget::cellClicked, this, &Kierowcy::onKierowcaClicked);
+    connect(searchLineEdit, &QLineEdit::textChanged, this, &Kierowcy::Wyszukaj);
+    connect(searchByComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Wyszukaj);
 
     FetchData *fetch = new FetchData(this);
     connect(fetch, &FetchData::KierowcyPobrano, this, &Kierowcy::Przypisz);
     fetch->Kierowcy();
-    connect(listaKierowcy, &QTableWidget::cellClicked, this, &Kierowcy::onKierowcaClicked);
+    
 }
 
 void Kierowcy::onKierowcaClicked(int row, int column)
 {
-    QString imieNazwisko = listaKierowcy->item(row, 0)->text();
+    QString imieNazwisko = TablicaKierowcy->item(row, 0)->text();
 
     QWidget *nowaPodstrona = new QWidget;
     QVBoxLayout *layout = new QVBoxLayout(nowaPodstrona);
@@ -51,64 +60,69 @@ void Kierowcy::onKierowcaClicked(int row, int column)
 
 void Kierowcy::Sortuj(int index)
 {
-    QList<QStringList> posortowani = kierowcyLista;
-
     auto sortujNazwisko = [](const QStringList &name1, const QStringList &name2) -> bool {
         QStringList parts1 = name1[0].split(" ");
         QStringList parts2 = name2[0].split(" ");
-
-        if (parts1.size() > 1 && parts2.size() > 1) {
-            return parts1[1].compare(parts2[1]) < 0;
-        }
-        return name1[0].compare(name2[0]) < 0;
+        return parts1.last().compare(parts2.last()) < 0;
     };
 
     if (index == 0) {  // Alfabetycznie rosnąco
-        std::sort(posortowani.begin(), posortowani.end(), sortujNazwisko);
+        std::sort(przefiltrowani.begin(), przefiltrowani.end(), sortujNazwisko);
     } else if (index == 1) {  // Alfabetycznie malejąco
-        std::sort(posortowani.begin(), posortowani.end(), [&](const QStringList &name1, const QStringList &name2) {
-            return !sortujNazwisko(name1, name2);
-        });
+        std::sort(przefiltrowani.begin(), przefiltrowani.end(), 
+                  [&](const QStringList &name1, const QStringList &name2) { return !sortujNazwisko(name1, name2); });
     }
 
-    wyswietlKierowcy(posortowani);
+    wyswietlKierowcy(przefiltrowani);
 }
 
 void Kierowcy::Przypisz(const QList<QStringList> &kierowcy)
 {
     kierowcyLista = kierowcy;
+    przefiltrowani = kierowcy;
     wyswietlKierowcy(kierowcy);
 }
 
 void Kierowcy::wyswietlKierowcy(const QList<QStringList> &kierowcy) 
 {
-    listaKierowcy->clearContents();
+    TablicaKierowcy->clearContents();
 
-    listaKierowcy->setRowCount(kierowcy.size());
+    TablicaKierowcy->setRowCount(kierowcy.size());
 
-    for (int i = 0; i < kierowcy.size()-1; ++i) {
+    for (int i = 0; i < kierowcy.size(); ++i) {
         const auto &kierowca = kierowcy[i];
         for (int j = 0; j < kierowca.size()-1; ++j) {
             QTableWidgetItem *item = new QTableWidgetItem(kierowca[j]);
             item->setTextAlignment(Qt::AlignCenter);
-            listaKierowcy->setItem(i, j, item);
+            TablicaKierowcy->setItem(i, j, item);
         }
     }
 }
 
-void Kierowcy::Filtruj(int index)
+void Kierowcy::Wyszukaj()
 {
-    QList<QStringList> przefiltrowani;
+    FiltrujWyszukaj(searchByComboBox->currentIndex());
+}
 
-    if (index == 0) {
+void Kierowcy::FiltrujWyszukaj(int index)
+{
+    QString tekst = searchLineEdit->text();
+    przefiltrowani.clear();
+
+    if (tekst.isEmpty())
         przefiltrowani = kierowcyLista;
-    } else if (index == 1) {
-        for (const auto &kierowca : kierowcyLista) {
-            if (kierowca[2] == "Tak") {
-                przefiltrowani.append(kierowca);
-            }
+    else
+        if (index == 0)
+        {
+            for (const auto &kierowca : kierowcyLista)
+                if (kierowca[0].toLower().contains(tekst.toLower()))
+                    przefiltrowani.append(kierowca);
         }
-    }
-
+        else if (index == 1)
+        {
+            for (const auto &kierowca : kierowcyLista)
+                if (kierowca[1].toLower().contains(tekst.toLower()))
+                    przefiltrowani.append(kierowca);
+        }
     wyswietlKierowcy(przefiltrowani);
 }

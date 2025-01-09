@@ -5,8 +5,6 @@
 #include <QDateTime>
 #include <QTimeZone>
 
-#include <QDebug>
-
 FetchData::FetchData(QObject *parent) : QObject(parent)
 {
     connect(&networkManager, &QNetworkAccessManager::finished, this, &FetchData::onNetworkReply);
@@ -14,7 +12,7 @@ FetchData::FetchData(QObject *parent) : QObject(parent)
 
 void FetchData::Nastepny()
 {
-    QUrl url("https://ergast.com/api/f1/current/next.json");
+    QUrl url("https://api.jolpi.ca/ergast/f1/current/next.json");
     QNetworkRequest request(url);
     auto reply = networkManager.get(request);
     reply->setProperty("requestType", "Nastepny");
@@ -22,7 +20,7 @@ void FetchData::Nastepny()
 
 void FetchData::Ostatni()
 {
-    QUrl url("https://ergast.com/api/f1/current/last/results.json");
+    QUrl url(QString("https://api.jolpi.ca/ergast/f1/%1/last/results.json").arg(currentYearo));
     QNetworkRequest request(url);
     auto reply = networkManager.get(request);
     reply->setProperty("requestType", "Ostatni");
@@ -30,7 +28,7 @@ void FetchData::Ostatni()
 
 void FetchData::Ranking()
 {
-    QUrl url("https://ergast.com/api/f1/current/driverStandings.json");
+    QUrl url(QString("https://api.jolpi.ca/ergast/f1/%1/driverStandings.json").arg(currentYearo));
     QNetworkRequest request(url);
     auto reply = networkManager.get(request);
     reply->setProperty("requestType", "Ranking");
@@ -41,12 +39,22 @@ void FetchData::Kierowcy()
     const int limit = 100;
     int offset = 0;
 
-    QUrl url(QString("https://ergast.com/api/f1/drivers.json?limit=%1&offset=%2").arg(limit).arg(offset));
+    QUrl url(QString("https://api.jolpi.ca/ergast/f1/drivers.json?limit=%1&offset=%2").arg(limit).arg(offset));
     QNetworkRequest request(url);
     auto reply = networkManager.get(request);
 
     reply->setProperty("requestType", QString("Kierowcy:%1:%2").arg(limit).arg(offset));
     listaKierowcy.clear();
+}
+
+void FetchData::Mistrzowie()
+{
+    for (int year = 1950; year <= QDate::currentDate().year(); ++year) {
+        QUrl url(QString("https://ergast.com/api/f1/%1/driverStandings.json").arg(year));
+        QNetworkRequest request(url);
+        auto reply = networkManager.get(request);
+        reply->setProperty("requestType", QString("Mistrzowie:%1").arg(year));
+    }
 }
 
 void FetchData::onNetworkReply(QNetworkReply *reply)
@@ -66,6 +74,14 @@ void FetchData::onNetworkReply(QNetworkReply *reply)
             RankingReply(jsonDoc);
         else if (zadanie.startsWith("Kierowcy"))
             KierowcyReply(jsonDoc, zadanie);
+        else if (zadanie.startsWith("Mistrzowie"))
+            MistrzowieReply(jsonDoc, zadanie);
+        //else if (zadanie == "Sezony")
+            //SezonyReply(jsonDoc);
+       // else if (zadanie.startsWith("MistrzowieKonstruktorzy:")) {
+            //QString rok = zadanie.split(":")[1];
+            //MistrzowieKonstruktorzyReply(jsonDoc, rok);
+        //}
         else
             qWarning() << "Błąd pobierania danych:" << reply->errorString();
     }
@@ -104,6 +120,17 @@ void FetchData::OstatniReply(const QJsonDocument &jsonDoc)
     QString DataCzas = DaneWyscig["date"].toString() + " " + DaneWyscig["time"].toString();
     QString Lokalizacja = DaneWyscig["Circuit"].toObject()["Location"].toObject()["locality"].toString();
     QJsonArray Wyniki = DaneWyscig["Results"].toArray();
+    
+    if (Wyniki.isEmpty())
+    {
+        currentYearo--;
+        QUrl nextUrl(QString("https://api.jolpi.ca/ergast/f1/%1/last/results.json").arg(currentYearo));
+        QNetworkRequest nextRequest(nextUrl);
+        auto nextReply = networkManager.get(nextRequest);
+        nextReply->setProperty("requestType", "Ostatni");
+    }
+    else
+    {
     QString Top3;
     for (int i = 0; i < 3; ++i) {
         Top3 += Wyniki[i].toObject()["Driver"].toObject()["givenName"].toString() + " " + Wyniki[i].toObject()["Driver"].toObject()["familyName"].toString() + ", ";
@@ -134,6 +161,7 @@ void FetchData::OstatniReply(const QJsonDocument &jsonDoc)
     DataCzas = CzasPl.toString("yyyy-MM-dd HH:mm:ss");
 
     emit OstatniPobrano(NazwaWyscig, DataCzas, Lokalizacja, Top3, FastestLap, FastestLapDriver, DriverOfTheDay);
+    }
 }
 
 void FetchData::RankingReply(const QJsonDocument &jsonDoc)
@@ -141,6 +169,16 @@ void FetchData::RankingReply(const QJsonDocument &jsonDoc)
     QJsonObject rootObj = jsonDoc.object();
     QJsonArray standings = rootObj["MRData"].toObject()["StandingsTable"].toObject()["StandingsLists"].toArray().first().toObject()["DriverStandings"].toArray();
 
+    if (standings.isEmpty())
+    {
+        currentYearo--;
+        QUrl nextUrl(QString("https://api.jolpi.ca/ergast/f1/%1/driverStandings.json").arg(currentYearo));
+        QNetworkRequest nextRequest(nextUrl);
+        auto nextReply = networkManager.get(nextRequest);
+        nextReply->setProperty("requestType", "Ranking");
+    }
+    else
+    {
     QList<QStringList> ranking;
 
     for (const auto &item : standings) {
@@ -151,10 +189,11 @@ void FetchData::RankingReply(const QJsonDocument &jsonDoc)
         QString team = driverObj["Constructors"].toArray().first().toObject()["name"].toString();
         QString points = driverObj["points"].toString();
 
-        ranking.append(QStringList() << position << driverName << nationality << team << points);
+        ranking.append({position, driverName, nationality, team, points});
     }
 
     emit RankingPobrano(ranking);
+    }
 }
 
 void FetchData::KierowcyReply(const QJsonDocument &jsonDoc, const QString &zadanie)
@@ -162,24 +201,38 @@ void FetchData::KierowcyReply(const QJsonDocument &jsonDoc, const QString &zadan
     QStringList kroki = zadanie.split(":");
     int limit = kroki[1].toInt();
     int offset = kroki[2].toInt();
-
     QJsonArray daneKierowcy = jsonDoc.object()["MRData"].toObject()["DriverTable"].toObject()["Drivers"].toArray();
 
-    for (const auto &item : daneKierowcy) {
-        QJsonObject driverObj = item.toObject();
-        QString Name = driverObj["givenName"].toString() + " " + driverObj["familyName"].toString();
+    for (const auto &driver : daneKierowcy) {
+        QJsonObject driverObj = driver.toObject();
+        QString driverId = driverObj["driverId"].toString();
+        QString name = driverObj["givenName"].toString() + " " + driverObj["familyName"].toString();
         QString nationality = driverObj["nationality"].toString();
-        listaKierowcy.append({Name, nationality, "Nie"});
+        
+        listaKierowcy.append({name, nationality, "0", driverId});
     }
-
     if (daneKierowcy.size() == limit) {
-        int newOffset = offset + limit;
-        QUrl nextUrl(QString("https://ergast.com/api/f1/drivers.json?limit=%1&offset=%2").arg(limit).arg(newOffset));
+        offset += limit;
+        QUrl nextUrl(QString("https://api.jolpi.ca/ergast/f1/drivers.json?limit=%1&offset=%2").arg(limit).arg(offset));
         QNetworkRequest nextRequest(nextUrl);
         auto nextReply = networkManager.get(nextRequest);
-
-        nextReply->setProperty("requestType", QString("Kierowcy:%1:%2").arg(limit).arg(newOffset));
-    } else {
+        nextReply->setProperty("requestType", QString("Kierowcy:%1:%2").arg(limit).arg(offset));
+    } else
         emit KierowcyPobrano(listaKierowcy);
+}
+
+void FetchData::MistrzowieReply(const QJsonDocument &jsonDoc, const QString &year)
+{
+    QJsonArray standings = jsonDoc.object()["MRData"].toObject()["StandingsTable"].toObject()["StandingsLists"].toArray();
+    if (standings.isEmpty()) return;
+
+    QJsonObject topDriver = standings.first().toObject()["DriverStandings"].toArray().first().toObject();
+    QString driverName = topDriver["Driver"].toObject()["givenName"].toString() + " " + topDriver["Driver"].toObject()["familyName"].toString();
+    QString nationality = topDriver["Driver"].toObject()["nationality"].toString();
+    QString team = topDriver["Constructors"].toArray().first().toObject()["name"].toString();
+
+    listaMistrzowie.append({year, driverName, nationality, team});
+    if (listaMistrzowie.size() == (currentYear - 1950 + 1)) {
+        emit MistrzowiePobrano(listaMistrzowie);
     }
 }
