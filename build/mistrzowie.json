@@ -1,0 +1,302 @@
+[
+    {
+        "driverid": "farina",
+        "rok": "1950"
+    },
+    {
+        "driverid": "fangio",
+        "rok": "1951"
+    },
+    {
+        "driverid": "ascari",
+        "rok": "1952"
+    },
+    {
+        "driverid": "ascari",
+        "rok": "1953"
+    },
+    {
+        "driverid": "fangio",
+        "rok": "1954"
+    },
+    {
+        "driverid": "fangio",
+        "rok": "1955"
+    },
+    {
+        "driverid": "fangio",
+        "rok": "1956"
+    },
+    {
+        "driverid": "fangio",
+        "rok": "1957"
+    },
+    {
+        "driverid": "hawthorn",
+        "rok": "1958"
+    },
+    {
+        "driverid": "jack_brabham",
+        "rok": "1959"
+    },
+    {
+        "driverid": "jack_brabham",
+        "rok": "1960"
+    },
+    {
+        "driverid": "phil_hill",
+        "rok": "1961"
+    },
+    {
+        "driverid": "hill",
+        "rok": "1962"
+    },
+    {
+        "driverid": "clark",
+        "rok": "1963"
+    },
+    {
+        "driverid": "surtees",
+        "rok": "1964"
+    },
+    {
+        "driverid": "clark",
+        "rok": "1965"
+    },
+    {
+        "driverid": "jack_brabham",
+        "rok": "1966"
+    },
+    {
+        "driverid": "hulme",
+        "rok": "1967"
+    },
+    {
+        "driverid": "hill",
+        "rok": "1968"
+    },
+    {
+        "driverid": "stewart",
+        "rok": "1969"
+    },
+    {
+        "driverid": "rindt",
+        "rok": "1970"
+    },
+    {
+        "driverid": "stewart",
+        "rok": "1971"
+    },
+    {
+        "driverid": "emerson_fittipaldi",
+        "rok": "1972"
+    },
+    {
+        "driverid": "stewart",
+        "rok": "1973"
+    },
+    {
+        "driverid": "emerson_fittipaldi",
+        "rok": "1974"
+    },
+    {
+        "driverid": "lauda",
+        "rok": "1975"
+    },
+    {
+        "driverid": "hunt",
+        "rok": "1976"
+    },
+    {
+        "driverid": "lauda",
+        "rok": "1977"
+    },
+    {
+        "driverid": "mario_andretti",
+        "rok": "1978"
+    },
+    {
+        "driverid": "scheckter",
+        "rok": "1979"
+    },
+    {
+        "driverid": "jones",
+        "rok": "1980"
+    },
+    {
+        "driverid": "piquet",
+        "rok": "1981"
+    },
+    {
+        "driverid": "keke_rosberg",
+        "rok": "1982"
+    },
+    {
+        "driverid": "piquet",
+        "rok": "1983"
+    },
+    {
+        "driverid": "lauda",
+        "rok": "1984"
+    },
+    {
+        "driverid": "prost",
+        "rok": "1985"
+    },
+    {
+        "driverid": "prost",
+        "rok": "1986"
+    },
+    {
+        "driverid": "piquet",
+        "rok": "1987"
+    },
+    {
+        "driverid": "senna",
+        "rok": "1988"
+    },
+    {
+        "driverid": "prost",
+        "rok": "1989"
+    },
+    {
+        "driverid": "senna",
+        "rok": "1990"
+    },
+    {
+        "driverid": "senna",
+        "rok": "1991"
+    },
+    {
+        "driverid": "mansell",
+        "rok": "1992"
+    },
+    {
+        "driverid": "prost",
+        "rok": "1993"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "1994"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "1995"
+    },
+    {
+        "driverid": "damon_hill",
+        "rok": "1996"
+    },
+    {
+        "driverid": "villeneuve",
+        "rok": "1997"
+    },
+    {
+        "driverid": "hakkinen",
+        "rok": "1998"
+    },
+    {
+        "driverid": "hakkinen",
+        "rok": "1999"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "2000"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "2001"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "2002"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "2003"
+    },
+    {
+        "driverid": "michael_schumacher",
+        "rok": "2004"
+    },
+    {
+        "driverid": "alonso",
+        "rok": "2005"
+    },
+    {
+        "driverid": "alonso",
+        "rok": "2006"
+    },
+    {
+        "driverid": "raikkonen",
+        "rok": "2007"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2008"
+    },
+    {
+        "driverid": "button",
+        "rok": "2009"
+    },
+    {
+        "driverid": "vettel",
+        "rok": "2010"
+    },
+    {
+        "driverid": "vettel",
+        "rok": "2011"
+    },
+    {
+        "driverid": "vettel",
+        "rok": "2012"
+    },
+    {
+        "driverid": "vettel",
+        "rok": "2013"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2014"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2015"
+    },
+    {
+        "driverid": "rosberg",
+        "rok": "2016"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2017"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2018"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2019"
+    },
+    {
+        "driverid": "hamilton",
+        "rok": "2020"
+    },
+    {
+        "driverid": "max_verstappen",
+        "rok": "2021"
+    },
+    {
+        "driverid": "max_verstappen",
+        "rok": "2022"
+    },
+    {
+        "driverid": "max_verstappen",
+        "rok": "2023"
+    },
+    {
+        "driverid": "max_verstappen",
+        "rok": "2024"
+    }
+]

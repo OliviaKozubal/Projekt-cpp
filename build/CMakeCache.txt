@@ -20,10 +20,8 @@ CMAKE_ADDR2LINE:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/addr2line.exe
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Qt/Tools/mingw1310_64/bin/ar.exe
 
-//Semicolon separated list of supported configuration types, only
-// supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
-// else will be ignored.
-CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;RelWithDebInfo
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER:FILEPATH=c:/Qt/Tools/mingw1310_64/bin/g++.exe
@@ -289,15 +287,6 @@ Project-cpp_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Project-cpp_SOURCE_DIR:STATIC=C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp
 
-//Value Computed by CMake
-Projectcpp_BINARY_DIR:STATIC=C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build
-
-//Value Computed by CMake
-Projectcpp_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Projectcpp_SOURCE_DIR:STATIC=C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp
-
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
 QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
@@ -309,6 +298,9 @@ QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 QT_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6
 
 QT_QMAKE_TARGET_MKSPEC:STRING=win32-g++
+
+//No help, variable specified on the command line.
+QT_QML_GENERATE_QMLLS_INI:STRING=ON
 
 //The directory containing a CMake configuration file for Qt6CoreTools.
 Qt6CoreTools_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6CoreTools
@@ -327,9 +319,6 @@ Qt6Gui_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui
 
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network
-
-//The directory containing a CMake configuration file for Qt6Sql.
-Qt6Sql_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WidgetsTools
@@ -416,7 +405,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Ninja Multi-Config
+CMAKE_GENERATOR:INTERNAL=Ninja
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
@@ -1125,8 +1114,6 @@ QT_FEATURE_splashscreen:INTERNAL=ON
 QT_FEATURE_splitter:INTERNAL=ON
 //Qt feature: sql (from target Qt6::Core)
 QT_FEATURE_sql:INTERNAL=ON
-//Qt feature: sqlmodel (from target Qt6::Sql)
-QT_FEATURE_sqlmodel:INTERNAL=ON
 //Qt feature: sse2 (from target Qt6::Core)
 QT_FEATURE_sse2:INTERNAL=ON
 //Qt feature: sse3 (from target Qt6::Core)

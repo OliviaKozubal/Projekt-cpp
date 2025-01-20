@@ -32,6 +32,7 @@ Project-cpp_autogen/timestamp: \
   C:/Programy/mingw64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake \
   C:/Programy/mingw64/share/cmake-3.27/Modules/Platform/Windows.cmake \
   C:/Programy/mingw64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QDate \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QFlags \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QIODevice \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
@@ -225,6 +226,7 @@ Project-cpp_autogen/timestamp: \
   C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetworkexports.h \
   C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetworkglobal.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QComboBox \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHeaderView \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
@@ -648,14 +650,14 @@ Project-cpp_autogen/timestamp: \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Kalendarz.h \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Kierowcy.cpp \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Kierowcy.h \
+  C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Save_Load.cpp \
+  C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Save_Load.h \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.cpp \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.h \
-  C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Zespoly.cpp \
-  C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Zespoly.h \
   CMakeFiles/3.27.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.2/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.2/CMakeSystem.cmake \
-  Project-cpp_autogen/moc_predefs_Debug.h \
+  Project-cpp_autogen/moc_predefs.h \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/main.cpp \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/mainwindow.cpp \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/mainwindow.h \

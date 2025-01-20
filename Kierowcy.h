@@ -18,12 +18,14 @@ public:
     Kierowcy(QWidget *parent = nullptr);
 
 public slots:
-    void Przypisz(const QList<QStringList> &kierowcy);
+    void Kierowcy_z_pliku();
     void wyswietlKierowcy(const QList<QStringList> &kierowcy);
     void onKierowcaClicked(int row, int column);
     void Sortuj(int index);
     void FiltrujWyszukaj(int index);
     void Wyszukaj();
+    void Filtr();
+    void FiltrujFiltr(int index);
 
 private:
     QVBoxLayout *layout;
@@ -34,6 +36,10 @@ private:
     QLineEdit *searchLineEdit;
     QComboBox *searchByComboBox;
     QList<QStringList> przefiltrowani;
+    QList<QString> mistrzowie;
+
+private slots:
+    
 };
 
 #endif // KIEROWCY_H

@@ -1,0 +1,5186 @@
+[
+    {
+        "driverid": "abate",
+        "imie_nazwisko": "Carlo Abate",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "abecassis",
+        "imie_nazwisko": "George Abecassis",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "acheson",
+        "imie_nazwisko": "Kenny Acheson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "adams",
+        "imie_nazwisko": "Philippe Adams",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ader",
+        "imie_nazwisko": "Walt Ader",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "adolff",
+        "imie_nazwisko": "Kurt Adolff",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "agabashian",
+        "imie_nazwisko": "Fred Agabashian",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ahrens",
+        "imie_nazwisko": "Kurt Ahrens",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "aitken",
+        "imie_nazwisko": "Jack Aitken",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "albers",
+        "imie_nazwisko": "Christijan Albers",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "albon",
+        "imie_nazwisko": "Alexander Albon",
+        "narodowosc": "Thai",
+        "wygrane": 0
+    },
+    {
+        "driverid": "alboreto",
+        "imie_nazwisko": "Michele Alboreto",
+        "narodowosc": "Italian",
+        "wygrane": 1
+    },
+    {
+        "driverid": "alesi",
+        "imie_nazwisko": "Jean Alesi",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "alguersuari",
+        "imie_nazwisko": "Jaime Alguersuari",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "alliot",
+        "imie_nazwisko": "Philippe Alliot",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "allison",
+        "imie_nazwisko": "Cliff Allison",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "alonso",
+        "imie_nazwisko": "Fernando Alonso",
+        "narodowosc": "Spanish",
+        "wygrane": 1
+    },
+    {
+        "driverid": "amati",
+        "imie_nazwisko": "Giovanna Amati",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "george_amick",
+        "imie_nazwisko": "George Amick",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "amick",
+        "imie_nazwisko": "Red Amick",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "amon",
+        "imie_nazwisko": "Chris Amon",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "anderson",
+        "imie_nazwisko": "Bob Anderson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "andersson",
+        "imie_nazwisko": "Conny Andersson",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mario_andretti",
+        "imie_nazwisko": "Mario Andretti",
+        "narodowosc": "American",
+        "wygrane": 1
+    },
+    {
+        "driverid": "andretti",
+        "imie_nazwisko": "Michael Andretti",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "andrews",
+        "imie_nazwisko": "Keith Andrews",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "antonelli",
+        "imie_nazwisko": "Andrea Kimi Antonelli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "apicella",
+        "imie_nazwisko": "Marco Apicella",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "armi",
+        "imie_nazwisko": "Frank Armi",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "arnold",
+        "imie_nazwisko": "Chuck Arnold",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "arnoux",
+        "imie_nazwisko": "René Arnoux",
+        "narodowosc": "French",
+        "wygrane": 2
+    },
+    {
+        "driverid": "arundell",
+        "imie_nazwisko": "Peter Arundell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ascari",
+        "imie_nazwisko": "Alberto Ascari",
+        "narodowosc": "Italian",
+        "wygrane": 13
+    },
+    {
+        "driverid": "ashdown",
+        "imie_nazwisko": "Peter Ashdown",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ashley",
+        "imie_nazwisko": "Ian Ashley",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ashmore",
+        "imie_nazwisko": "Gerry Ashmore",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "aston",
+        "imie_nazwisko": "Bill Aston",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "attwood",
+        "imie_nazwisko": "Richard Attwood",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ayulo",
+        "imie_nazwisko": "Manny Ayulo",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "badoer",
+        "imie_nazwisko": "Luca Badoer",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "baghetti",
+        "imie_nazwisko": "Giancarlo Baghetti",
+        "narodowosc": "Italian",
+        "wygrane": 1
+    },
+    {
+        "driverid": "bailey",
+        "imie_nazwisko": "Julian Bailey",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "baldi",
+        "imie_nazwisko": "Mauro Baldi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ball",
+        "imie_nazwisko": "Bobby Ball",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "balsa",
+        "imie_nazwisko": "Marcel Balsa",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bandini",
+        "imie_nazwisko": "Lorenzo Bandini",
+        "narodowosc": "Italian",
+        "wygrane": 1
+    },
+    {
+        "driverid": "banks",
+        "imie_nazwisko": "Henry Banks",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "barbazza",
+        "imie_nazwisko": "Fabrizio Barbazza",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "john_barber",
+        "imie_nazwisko": "John Barber",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "barber",
+        "imie_nazwisko": "Skip Barber",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "barilla",
+        "imie_nazwisko": "Paolo Barilla",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "barrichello",
+        "imie_nazwisko": "Rubens Barrichello",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bartels",
+        "imie_nazwisko": "Michael Bartels",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "barth",
+        "imie_nazwisko": "Edgar Barth",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bassi",
+        "imie_nazwisko": "Giorgio Bassi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bauer",
+        "imie_nazwisko": "Erwin Bauer",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "baumgartner",
+        "imie_nazwisko": "Zsolt Baumgartner",
+        "narodowosc": "Hungarian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bayol",
+        "imie_nazwisko": "Élie Bayol",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bearman",
+        "imie_nazwisko": "Oliver Bearman",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "beauman",
+        "imie_nazwisko": "Don Beauman",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bechem",
+        "imie_nazwisko": "Günther Bechem",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "behra",
+        "imie_nazwisko": "Jean Behra",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bell",
+        "imie_nazwisko": "Derek Bell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bellof",
+        "imie_nazwisko": "Stefan Bellof",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "belmondo",
+        "imie_nazwisko": "Paul Belmondo",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "belso",
+        "imie_nazwisko": "Tom Belsø",
+        "narodowosc": "Danish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "beltoise",
+        "imie_nazwisko": "Jean-Pierre Beltoise",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "beretta",
+        "imie_nazwisko": "Olivier Beretta",
+        "narodowosc": "Monegasque",
+        "wygrane": 0
+    },
+    {
+        "driverid": "berg",
+        "imie_nazwisko": "Allen Berg",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "georges_berger",
+        "imie_nazwisko": "Georges Berger",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "berger",
+        "imie_nazwisko": "Gerhard Berger",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bernard",
+        "imie_nazwisko": "Éric Bernard",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bernoldi",
+        "imie_nazwisko": "Enrique Bernoldi",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bertaggia",
+        "imie_nazwisko": "Enrico Bertaggia",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bettenhausen",
+        "imie_nazwisko": "Tony Bettenhausen",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "beuttler",
+        "imie_nazwisko": "Mike Beuttler",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bianchi",
+        "imie_nazwisko": "Lucien Bianchi",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jules_bianchi",
+        "imie_nazwisko": "Jules Bianchi",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bianco",
+        "imie_nazwisko": "Gino Bianco",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "binder",
+        "imie_nazwisko": "Hans Binder",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "biondetti",
+        "imie_nazwisko": "Clemente Biondetti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bira",
+        "imie_nazwisko": "Prince Bira",
+        "narodowosc": "Thai",
+        "wygrane": 0
+    },
+    {
+        "driverid": "birger",
+        "imie_nazwisko": "Pablo Birger",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bisch",
+        "imie_nazwisko": "Art Bisch",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "blanchard",
+        "imie_nazwisko": "Harry Blanchard",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bleekemolen",
+        "imie_nazwisko": "Michael Bleekemolen",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "blignaut",
+        "imie_nazwisko": "Alex Blignaut",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "blokdyk",
+        "imie_nazwisko": "Trevor Blokdyk",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "blundell",
+        "imie_nazwisko": "Mark Blundell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "boesel",
+        "imie_nazwisko": "Raul Boesel",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "boffa",
+        "imie_nazwisko": "Menato Boffa",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bondurant",
+        "imie_nazwisko": "Bob Bondurant",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bonetto",
+        "imie_nazwisko": "Felice Bonetto",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bonnier",
+        "imie_nazwisko": "Jo Bonnier",
+        "narodowosc": "Swedish",
+        "wygrane": 1
+    },
+    {
+        "driverid": "bonomi",
+        "imie_nazwisko": "Roberto Bonomi",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bordeu",
+        "imie_nazwisko": "Juan Manuel Bordeu",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "borgudd",
+        "imie_nazwisko": "Slim Borgudd",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bortoleto",
+        "imie_nazwisko": "Gabriel Bortoleto",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "botha",
+        "imie_nazwisko": "Luki Botha",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bottas",
+        "imie_nazwisko": "Valtteri Bottas",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "boullion",
+        "imie_nazwisko": "Jean-Christophe Boullion",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bourdais",
+        "imie_nazwisko": "Sébastien Bourdais",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "boutsen",
+        "imie_nazwisko": "Thierry Boutsen",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "boyd",
+        "imie_nazwisko": "Johnny Boyd",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jack_brabham",
+        "imie_nazwisko": "Jack Brabham",
+        "narodowosc": "Australian",
+        "wygrane": 5
+    },
+    {
+        "driverid": "gary_brabham",
+        "imie_nazwisko": "Gary Brabham",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brabham",
+        "imie_nazwisko": "David Brabham",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brack",
+        "imie_nazwisko": "Bill Brack",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ernesto_brambilla",
+        "imie_nazwisko": "Ernesto Brambilla",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brambilla",
+        "imie_nazwisko": "Vittorio Brambilla",
+        "narodowosc": "Italian",
+        "wygrane": 1
+    },
+    {
+        "driverid": "branca",
+        "imie_nazwisko": "Toni Branca",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brancatelli",
+        "imie_nazwisko": "Gianfranco Brancatelli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brandon",
+        "imie_nazwisko": "Eric Brandon",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "branson",
+        "imie_nazwisko": "Don Branson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bridger",
+        "imie_nazwisko": "Tom Bridger",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brise",
+        "imie_nazwisko": "Tony Brise",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bristow",
+        "imie_nazwisko": "Chris Bristow",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "broeker",
+        "imie_nazwisko": "Peter Broeker",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brooks",
+        "imie_nazwisko": "Tony Brooks",
+        "narodowosc": "British",
+        "wygrane": 6
+    },
+    {
+        "driverid": "walt_brown",
+        "imie_nazwisko": "Walt Brown",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "alan_brown",
+        "imie_nazwisko": "Alan Brown",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brown",
+        "imie_nazwisko": "Warwick Brown",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brudes",
+        "imie_nazwisko": "Adolf Brudes",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brundle",
+        "imie_nazwisko": "Martin Brundle",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bruni",
+        "imie_nazwisko": "Gianmaria Bruni",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bryan",
+        "imie_nazwisko": "Jimmy Bryan",
+        "narodowosc": "American",
+        "wygrane": 1
+    },
+    {
+        "driverid": "bucci",
+        "imie_nazwisko": "Clemar Bucci",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bucknum",
+        "imie_nazwisko": "Ronnie Bucknum",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bueb",
+        "imie_nazwisko": "Ivor Bueb",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "buemi",
+        "imie_nazwisko": "Sébastien Buemi",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bueno",
+        "imie_nazwisko": "Luiz Bueno",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "burgess",
+        "imie_nazwisko": "Ian Burgess",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "burti",
+        "imie_nazwisko": "Luciano Burti",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bussinello",
+        "imie_nazwisko": "Roberto Bussinello",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "button",
+        "imie_nazwisko": "Jenson Button",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "byrne",
+        "imie_nazwisko": "Tommy Byrne",
+        "narodowosc": "Irish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cabantous",
+        "imie_nazwisko": "Yves Cabantous",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cabianca",
+        "imie_nazwisko": "Giulio Cabianca",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cabral",
+        "imie_nazwisko": "Mário de Araújo Cabral",
+        "narodowosc": "Portuguese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cade",
+        "imie_nazwisko": "Phil Cade",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "caffi",
+        "imie_nazwisko": "Alex Caffi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "campbell-jones",
+        "imie_nazwisko": "John Campbell-Jones",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "campos",
+        "imie_nazwisko": "Adrián Campos",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "Cannoc",
+        "imie_nazwisko": "John Cannon",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cantoni",
+        "imie_nazwisko": "Eitel Cantoni",
+        "narodowosc": "Uruguayan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cantrell",
+        "imie_nazwisko": "Bill Cantrell",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "capelli",
+        "imie_nazwisko": "Ivan Capelli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "carini",
+        "imie_nazwisko": "Piero Carini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "darter",
+        "imie_nazwisko": "Duane Carter",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "castellotti",
+        "imie_nazwisko": "Eugenio Castellotti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cecotto",
+        "imie_nazwisko": "Johnny Cecotto",
+        "narodowosc": "Venezuelan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cevert",
+        "imie_nazwisko": "François Cevert",
+        "narodowosc": "French",
+        "wygrane": 1
+    },
+    {
+        "driverid": "chaboud",
+        "imie_nazwisko": "Eugène Chaboud",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chamberlain",
+        "imie_nazwisko": "Jay Chamberlain",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chandhok",
+        "imie_nazwisko": "Karun Chandhok",
+        "narodowosc": "Indian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chapman",
+        "imie_nazwisko": "Colin Chapman",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "charlton",
+        "imie_nazwisko": "Dave Charlton",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chaves",
+        "imie_nazwisko": "Pedro Chaves",
+        "narodowosc": "Portuguese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cheesbourg",
+        "imie_nazwisko": "Bill Cheesbourg",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cheever",
+        "imie_nazwisko": "Eddie Cheever",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chiesa",
+        "imie_nazwisko": "Andrea Chiesa",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chilton",
+        "imie_nazwisko": "Max Chilton",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chimeri",
+        "imie_nazwisko": "Ettore Chimeri",
+        "narodowosc": "Venezuelan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chiron",
+        "imie_nazwisko": "Louis Chiron",
+        "narodowosc": "Monegasque",
+        "wygrane": 0
+    },
+    {
+        "driverid": "chitwood",
+        "imie_nazwisko": "Joie Chitwood",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "christie",
+        "imie_nazwisko": "Bob Christie",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "claes",
+        "imie_nazwisko": "Johnny Claes",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "clapham",
+        "imie_nazwisko": "David Clapham",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "clark",
+        "imie_nazwisko": "Jim Clark",
+        "narodowosc": "British",
+        "wygrane": 8
+    },
+    {
+        "driverid": "cogan",
+        "imie_nazwisko": "Kevin Cogan",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "colapinto",
+        "imie_nazwisko": "Franco Colapinto",
+        "narodowosc": "Argentinian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "collins",
+        "imie_nazwisko": "Peter Collins",
+        "narodowosc": "British",
+        "wygrane": 2
+    },
+    {
+        "driverid": "collomb",
+        "imie_nazwisko": "Bernard Collomb",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "colombo",
+        "imie_nazwisko": "Alberto Colombo",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "comas",
+        "imie_nazwisko": "Érik Comas",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "comotti",
+        "imie_nazwisko": "Franco Comotti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "george_connor",
+        "imie_nazwisko": "George Connor",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "constantine",
+        "imie_nazwisko": "George Constantine",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cordts",
+        "imie_nazwisko": "John Cordts",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "coulthard",
+        "imie_nazwisko": "David Coulthard",
+        "narodowosc": "British",
+        "wygrane": 1
+    },
+    {
+        "driverid": "courage",
+        "imie_nazwisko": "Piers Courage",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "craft",
+        "imie_nazwisko": "Chris Craft",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ray_crawford",
+        "imie_nazwisko": "Ray Crawford",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "crawford",
+        "imie_nazwisko": "Jim Crawford",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "crespo",
+        "imie_nazwisko": "Alberto Crespo",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "creus",
+        "imie_nazwisko": "Antonio Creus",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "crockett",
+        "imie_nazwisko": "Larry Crockett",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "crook",
+        "imie_nazwisko": "Tony Crook",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cross",
+        "imie_nazwisko": "Art Cross",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "crossley",
+        "imie_nazwisko": "Geoff Crossley",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cruz",
+        "imie_nazwisko": "Adolfo Cruz",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "daigh",
+        "imie_nazwisko": "Chuck Daigh",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dalmas",
+        "imie_nazwisko": "Yannick Dalmas",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "daly",
+        "imie_nazwisko": "Derek Daly",
+        "narodowosc": "Irish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "matta",
+        "imie_nazwisko": "Cristiano da Matta",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ambrosio",
+        "imie_nazwisko": "Jérôme d'Ambrosio",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "danner",
+        "imie_nazwisko": "Christian Danner",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "daponte",
+        "imie_nazwisko": "Jorge Daponte",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ramos",
+        "imie_nazwisko": "Hernando da Silva Ramos",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "davidson",
+        "imie_nazwisko": "Anthony Davidson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "davies",
+        "imie_nazwisko": "Jimmy Davies",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "davis",
+        "imie_nazwisko": "Colin Davis",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "daywalt",
+        "imie_nazwisko": "Jimmy Daywalt",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "adamich",
+        "imie_nazwisko": "Andrea de Adamich",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "angelis",
+        "imie_nazwisko": "Elio de Angelis",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "beaufort",
+        "imie_nazwisko": "Carel Godin de Beaufort",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "cesaris",
+        "imie_nazwisko": "Andrea de Cesaris",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "Changy",
+        "imie_nazwisko": "Alain de Changy",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dryver",
+        "imie_nazwisko": "Bernard de Dryver",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "filippis",
+        "imie_nazwisko": "Maria de Filippis",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "graffenried",
+        "imie_nazwisko": "Toulo de Graffenried",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "klerk",
+        "imie_nazwisko": "Peter de Klerk",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rosa",
+        "imie_nazwisko": "Pedro de la Rosa",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "deletraz",
+        "imie_nazwisko": "Jean-Denis Délétraz",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "depailler",
+        "imie_nazwisko": "Patrick Depailler",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "portago",
+        "imie_nazwisko": "Alfonso de Portago",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "riu",
+        "imie_nazwisko": "Giovanni de Riu",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "terra",
+        "imie_nazwisko": "Max de Terra",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tomaso",
+        "imie_nazwisko": "Alessandro de Tomaso",
+        "narodowosc": "Argentine-Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tornaco",
+        "imie_nazwisko": "Charles de Tornaco",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "villota",
+        "imie_nazwisko": "Emilio de Villota",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vos",
+        "imie_nazwisko": "Ernie de Vos",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "de_vries",
+        "imie_nazwisko": "Nyck de Vries",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "grassi",
+        "imie_nazwisko": "Lucas di Grassi",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "diniz",
+        "imie_nazwisko": "Pedro Diniz",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dinsmore",
+        "imie_nazwisko": "Duke Dinsmore",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "resta",
+        "imie_nazwisko": "Paul di Resta",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dochnal",
+        "imie_nazwisko": "Frank Dochnal",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dolhem",
+        "imie_nazwisko": "José Dolhem",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "donnelly",
+        "imie_nazwisko": "Martin Donnelly",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "donohue",
+        "imie_nazwisko": "Mark Donohue",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "doohan",
+        "imie_nazwisko": "Jack Doohan",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "doornbos",
+        "imie_nazwisko": "Robert Doornbos",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "orey",
+        "imie_nazwisko": "Fritz d'Orey",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "downing",
+        "imie_nazwisko": "Ken Downing",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "drake",
+        "imie_nazwisko": "Bob Drake",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "driver",
+        "imie_nazwisko": "Paddy Driver",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "drogo",
+        "imie_nazwisko": "Piero Drogo",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "duke",
+        "imie_nazwisko": "Geoff Duke",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dumfries",
+        "imie_nazwisko": "Johnny Dumfries",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "duncan",
+        "imie_nazwisko": "Len Duncan",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dusio",
+        "imie_nazwisko": "Piero Dusio",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "eaton",
+        "imie_nazwisko": "George Eaton",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ecclestone",
+        "imie_nazwisko": "Bernie Ecclestone",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "edmunds",
+        "imie_nazwisko": "Don Edmunds",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "edwards",
+        "imie_nazwisko": "Guy Edwards",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "elford",
+        "imie_nazwisko": "Vic Elford",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "elisian",
+        "imie_nazwisko": "Ed Elisian",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "emery",
+        "imie_nazwisko": "Paul Emery",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "enge",
+        "imie_nazwisko": "Tomáš Enge",
+        "narodowosc": "Czech",
+        "wygrane": 0
+    },
+    {
+        "driverid": "england",
+        "imie_nazwisko": "Paul England",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ericsson",
+        "imie_nazwisko": "Marcus Ericsson",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ertl",
+        "imie_nazwisko": "Harald Ertl",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "estefano",
+        "imie_nazwisko": "Nasif Estéfano",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "etancelin",
+        "imie_nazwisko": "Philippe Étancelin",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "evans",
+        "imie_nazwisko": "Bob Evans",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fabi",
+        "imie_nazwisko": "Teo Fabi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "corrado_fabi",
+        "imie_nazwisko": "Corrado Fabi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fabre",
+        "imie_nazwisko": "Pascal Fabre",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "facetti",
+        "imie_nazwisko": "Carlo Facetti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fagioli",
+        "imie_nazwisko": "Luigi Fagioli",
+        "narodowosc": "Italian",
+        "wygrane": 1
+    },
+    {
+        "driverid": "fairman",
+        "imie_nazwisko": "Jack Fairman",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fangio",
+        "imie_nazwisko": "Juan Fangio",
+        "narodowosc": "Argentine",
+        "wygrane": 11
+    },
+    {
+        "driverid": "farina",
+        "imie_nazwisko": "Nino Farina",
+        "narodowosc": "Italian",
+        "wygrane": 5
+    },
+    {
+        "driverid": "faulkner",
+        "imie_nazwisko": "Walt Faulkner",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "firman",
+        "imie_nazwisko": "Ralph Firman",
+        "narodowosc": "Irish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fischer",
+        "imie_nazwisko": "Rudi Fischer",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fisher",
+        "imie_nazwisko": "Mike Fisher",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fisichella",
+        "imie_nazwisko": "Giancarlo Fisichella",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fitch",
+        "imie_nazwisko": "John Fitch",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "emerson_fittipaldi",
+        "imie_nazwisko": "Emerson Fittipaldi",
+        "narodowosc": "Brazilian",
+        "wygrane": 8
+    },
+    {
+        "driverid": "wilson_fittipaldi",
+        "imie_nazwisko": "Wilson Fittipaldi",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fittipaldi",
+        "imie_nazwisko": "Christian Fittipaldi",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pietro_fittipaldi",
+        "imie_nazwisko": "Pietro Fittipaldi",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fitzau",
+        "imie_nazwisko": "Theo Fitzau",
+        "narodowosc": "East German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "flaherty",
+        "imie_nazwisko": "Pat Flaherty",
+        "narodowosc": "American",
+        "wygrane": 1
+    },
+    {
+        "driverid": "flinterman",
+        "imie_nazwisko": "Jan Flinterman",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "flockhart",
+        "imie_nazwisko": "Ron Flockhart",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fohr",
+        "imie_nazwisko": "Myron Fohr",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "foitek",
+        "imie_nazwisko": "Gregor Foitek",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "follmer",
+        "imie_nazwisko": "George Follmer",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fonder",
+        "imie_nazwisko": "George Fonder",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fontana",
+        "imie_nazwisko": "Norberto Fontana",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fontes",
+        "imie_nazwisko": "Azdrubal Fontes",
+        "narodowosc": "Uruguayan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "forberg",
+        "imie_nazwisko": "Carl Forberg",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "force",
+        "imie_nazwisko": "Gene Force",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "forini",
+        "imie_nazwisko": "Franco Forini",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "parker",
+        "imie_nazwisko": "Philip Fotheringham-Parker",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "foyt",
+        "imie_nazwisko": "Anthony Foyt",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gimax",
+        "imie_nazwisko": "Carlo Franchi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "francia",
+        "imie_nazwisko": "Giorgio Francia",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "freeland",
+        "imie_nazwisko": "Don Freeland",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "frentzen",
+        "imie_nazwisko": "Heinz-Harald Frentzen",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "frere",
+        "imie_nazwisko": "Paul Frère",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "friesacher",
+        "imie_nazwisko": "Patrick Friesacher",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fry",
+        "imie_nazwisko": "Joe Fry",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "fushida",
+        "imie_nazwisko": "Hiroshi Fushida",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gabbiani",
+        "imie_nazwisko": "Beppe Gabbiani",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gachot",
+        "imie_nazwisko": "Bertrand Gachot",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gaillard",
+        "imie_nazwisko": "Patrick Gaillard",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "galica",
+        "imie_nazwisko": "Divina Galica",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "galli",
+        "imie_nazwisko": "Nanni Galli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "galvez",
+        "imie_nazwisko": "Oscar Gálvez",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gamble",
+        "imie_nazwisko": "Fred Gamble",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ganley",
+        "imie_nazwisko": "Howden Ganley",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gardner",
+        "imie_nazwisko": "Frank Gardner",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "garrett",
+        "imie_nazwisko": "Billy Garrett",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gartner",
+        "imie_nazwisko": "Jo Gartner",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gasly",
+        "imie_nazwisko": "Pierre Gasly",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gaze",
+        "imie_nazwisko": "Tony Gaze",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gendebien",
+        "imie_nazwisko": "Olivier Gendebien",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gene",
+        "imie_nazwisko": "Marc Gené",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "george",
+        "imie_nazwisko": "Elmer George",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gerard",
+        "imie_nazwisko": "Bob Gerard",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gerini",
+        "imie_nazwisko": "Gerino Gerini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gethin",
+        "imie_nazwisko": "Peter Gethin",
+        "narodowosc": "British",
+        "wygrane": 1
+    },
+    {
+        "driverid": "ghinzani",
+        "imie_nazwisko": "Piercarlo Ghinzani",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "giacomelli",
+        "imie_nazwisko": "Bruno Giacomelli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gibson",
+        "imie_nazwisko": "Dick Gibson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ginther",
+        "imie_nazwisko": "Richie Ginther",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "giovinazzi",
+        "imie_nazwisko": "Antonio Giovinazzi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "giunti",
+        "imie_nazwisko": "Ignazio Giunti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "glock",
+        "imie_nazwisko": "Timo Glock",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "godia",
+        "imie_nazwisko": "Paco Godia",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "goethals",
+        "imie_nazwisko": "Christian Goethals",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "goldsmith",
+        "imie_nazwisko": "Paul Goldsmith",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gonzalez",
+        "imie_nazwisko": "José Froilán González",
+        "narodowosc": "Argentine",
+        "wygrane": 2
+    },
+    {
+        "driverid": "oscar_gonzalez",
+        "imie_nazwisko": "Óscar González",
+        "narodowosc": "Uruguayan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gordini",
+        "imie_nazwisko": "Aldo Gordini",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gould",
+        "imie_nazwisko": "Horace Gould",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gounon",
+        "imie_nazwisko": "Jean-Marc Gounon",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "green",
+        "imie_nazwisko": "Cecil Green",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "greene",
+        "imie_nazwisko": "Keith Greene",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gregory",
+        "imie_nazwisko": "Masten Gregory",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "griffith",
+        "imie_nazwisko": "Cliff Griffith",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "grignard",
+        "imie_nazwisko": "Georges Grignard",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "grim",
+        "imie_nazwisko": "Bobby Grim",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "grosjean",
+        "imie_nazwisko": "Romain Grosjean",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "grouillard",
+        "imie_nazwisko": "Olivier Grouillard",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gubby",
+        "imie_nazwisko": "Brian Gubby",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "guelfi",
+        "imie_nazwisko": "André Guelfi",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "guerra",
+        "imie_nazwisko": "Miguel Ángel Guerra",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "guerrero",
+        "imie_nazwisko": "Roberto Guerrero",
+        "narodowosc": "Colombian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gugelmin",
+        "imie_nazwisko": "Maurício Gugelmin",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gurney",
+        "imie_nazwisko": "Dan Gurney",
+        "narodowosc": "American",
+        "wygrane": 1
+    },
+    {
+        "driverid": "gutierrez",
+        "imie_nazwisko": "Esteban Gutiérrez",
+        "narodowosc": "Mexican",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hadjar",
+        "imie_nazwisko": "Isack Hadjar",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hahne",
+        "imie_nazwisko": "Hubert Hahne",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hailwood",
+        "imie_nazwisko": "Mike Hailwood",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hakkinen",
+        "imie_nazwisko": "Mika Häkkinen",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "halford",
+        "imie_nazwisko": "Bruce Halford",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hall",
+        "imie_nazwisko": "Jim Hall",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "duncan_hamilton",
+        "imie_nazwisko": "Duncan Hamilton",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hamilton",
+        "imie_nazwisko": "Lewis Hamilton",
+        "narodowosc": "British",
+        "wygrane": 8
+    },
+    {
+        "driverid": "hampshire",
+        "imie_nazwisko": "David Hampshire",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hanks",
+        "imie_nazwisko": "Sam Hanks",
+        "narodowosc": "American",
+        "wygrane": 1
+    },
+    {
+        "driverid": "hansgen",
+        "imie_nazwisko": "Walt Hansgen",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "harris",
+        "imie_nazwisko": "Mike Harris",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "harrison",
+        "imie_nazwisko": "Cuth Harrison",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hart",
+        "imie_nazwisko": "Brian Hart",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hartley",
+        "imie_nazwisko": "Gene Hartley",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "brendon_hartley",
+        "imie_nazwisko": "Brendon Hartley",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "haryanto",
+        "imie_nazwisko": "Rio Haryanto",
+        "narodowosc": "Indonesian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hasemi",
+        "imie_nazwisko": "Masahiro Hasemi",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hattori",
+        "imie_nazwisko": "Naoki Hattori",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hawkins",
+        "imie_nazwisko": "Paul Hawkins",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hawthorn",
+        "imie_nazwisko": "Mike Hawthorn",
+        "narodowosc": "British",
+        "wygrane": 2
+    },
+    {
+        "driverid": "heeks",
+        "imie_nazwisko": "Willi Heeks",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "heidfeld",
+        "imie_nazwisko": "Nick Heidfeld",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "helfrich",
+        "imie_nazwisko": "Theo Helfrich",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hellings",
+        "imie_nazwisko": "Mack Hellings",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "henton",
+        "imie_nazwisko": "Brian Henton",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "herbert",
+        "imie_nazwisko": "Johnny Herbert",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "herman",
+        "imie_nazwisko": "Al Herman",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "herrmann",
+        "imie_nazwisko": "Hans Herrmann",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hesnault",
+        "imie_nazwisko": "François Hesnault",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "heyer",
+        "imie_nazwisko": "Hans Heyer",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hill",
+        "imie_nazwisko": "Graham Hill",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "phil_hill",
+        "imie_nazwisko": "Phil Hill",
+        "narodowosc": "American",
+        "wygrane": 3
+    },
+    {
+        "driverid": "damon_hill",
+        "imie_nazwisko": "Damon Hill",
+        "narodowosc": "British",
+        "wygrane": 4
+    },
+    {
+        "driverid": "hirt",
+        "imie_nazwisko": "Peter Hirt",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hobbs",
+        "imie_nazwisko": "David Hobbs",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hocking",
+        "imie_nazwisko": "Gary Hocking",
+        "narodowosc": "Rhodesian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hoffmann",
+        "imie_nazwisko": "Ingo Hoffmann",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "holland",
+        "imie_nazwisko": "Bill Holland",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "holmes",
+        "imie_nazwisko": "Jackie Holmes",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "homeier",
+        "imie_nazwisko": "Bill Homeier",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hoshino",
+        "imie_nazwisko": "Kazuyoshi Hoshino",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hoyt",
+        "imie_nazwisko": "Jerry Hoyt",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hulkenberg",
+        "imie_nazwisko": "Nico Hülkenberg",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hulme",
+        "imie_nazwisko": "Denny Hulme",
+        "narodowosc": "New Zealander",
+        "wygrane": 2
+    },
+    {
+        "driverid": "hunt",
+        "imie_nazwisko": "James Hunt",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hurtubise",
+        "imie_nazwisko": "Jim Hurtubise",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hutchison",
+        "imie_nazwisko": "Gus Hutchison",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ickx",
+        "imie_nazwisko": "Jacky Ickx",
+        "narodowosc": "Belgian",
+        "wygrane": 3
+    },
+    {
+        "driverid": "ide",
+        "imie_nazwisko": "Yuji Ide",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "iglesias",
+        "imie_nazwisko": "Jesús Iglesias",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "inoue",
+        "imie_nazwisko": "Taki Inoue",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ireland",
+        "imie_nazwisko": "Innes Ireland",
+        "narodowosc": "British",
+        "wygrane": 1
+    },
+    {
+        "driverid": "irvine",
+        "imie_nazwisko": "Eddie Irvine",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "irwin",
+        "imie_nazwisko": "Chris Irwin",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jabouille",
+        "imie_nazwisko": "Jean-Pierre Jabouille",
+        "narodowosc": "French",
+        "wygrane": 1
+    },
+    {
+        "driverid": "jackson",
+        "imie_nazwisko": "Jimmy Jackson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "james",
+        "imie_nazwisko": "Joe James",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "john_james",
+        "imie_nazwisko": "John James",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jarier",
+        "imie_nazwisko": "Jean-Pierre Jarier",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lehto",
+        "imie_nazwisko": "Jyrki Järvilehto",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jean",
+        "imie_nazwisko": "Max Jean",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "johansson",
+        "imie_nazwisko": "Stefan Johansson",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "leslie_johnson",
+        "imie_nazwisko": "Leslie Johnson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "johnson",
+        "imie_nazwisko": "Eddie Johnson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "johnstone",
+        "imie_nazwisko": "Bruce Johnstone",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tom_jones",
+        "imie_nazwisko": "Tom Jones",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jones",
+        "imie_nazwisko": "Alan Jones",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jover",
+        "imie_nazwisko": "Juan Jover",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "karch",
+        "imie_nazwisko": "Oswald Karch",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "karthikeyan",
+        "imie_nazwisko": "Narain Karthikeyan",
+        "narodowosc": "Indian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "katayama",
+        "imie_nazwisko": "Ukyo Katayama",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kavanagh",
+        "imie_nazwisko": "Ken Kavanagh",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "keegan",
+        "imie_nazwisko": "Rupert Keegan",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "keizan",
+        "imie_nazwisko": "Eddie Keizan",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "keller",
+        "imie_nazwisko": "Al Keller",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kelly",
+        "imie_nazwisko": "Joe Kelly",
+        "narodowosc": "Irish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kennedy",
+        "imie_nazwisko": "Dave Kennedy",
+        "narodowosc": "Irish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kessel",
+        "imie_nazwisko": "Loris Kessel",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kessler",
+        "imie_nazwisko": "Bruce Kessler",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kiesa",
+        "imie_nazwisko": "Nicolas Kiesa",
+        "narodowosc": "Danish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kinnunen",
+        "imie_nazwisko": "Leo Kinnunen",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kladis",
+        "imie_nazwisko": "Danny Kladis",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "klenk",
+        "imie_nazwisko": "Hans Klenk",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "klien",
+        "imie_nazwisko": "Christian Klien",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kling",
+        "imie_nazwisko": "Karl Kling",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "klodwig",
+        "imie_nazwisko": "Ernst Klodwig",
+        "narodowosc": "East German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kobayashi",
+        "imie_nazwisko": "Kamui Kobayashi",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "koinigg",
+        "imie_nazwisko": "Helmuth Koinigg",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kovalainen",
+        "imie_nazwisko": "Heikki Kovalainen",
+        "narodowosc": "Finnish",
+        "wygrane": 1
+    },
+    {
+        "driverid": "kozarowitzky",
+        "imie_nazwisko": "Mikko Kozarowitzky",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "krause",
+        "imie_nazwisko": "Rudolf Krause",
+        "narodowosc": "East German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kubica",
+        "imie_nazwisko": "Robert Kubica",
+        "narodowosc": "Polish",
+        "wygrane": 1
+    },
+    {
+        "driverid": "kuhnke",
+        "imie_nazwisko": "Kurt Kuhnke",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kvyat",
+        "imie_nazwisko": "Daniil Kvyat",
+        "narodowosc": "Russian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "la_caze",
+        "imie_nazwisko": "Robert La Caze",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "laffite",
+        "imie_nazwisko": "Jacques Laffite",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lagorce",
+        "imie_nazwisko": "Franck Lagorce",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lammers",
+        "imie_nazwisko": "Jan Lammers",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lamy",
+        "imie_nazwisko": "Pedro Lamy",
+        "narodowosc": "Portuguese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "landi",
+        "imie_nazwisko": "Chico Landi",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lang",
+        "imie_nazwisko": "Hermann Lang",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "langes",
+        "imie_nazwisko": "Claudio Langes",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "larini",
+        "imie_nazwisko": "Nicola Larini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "larrauri",
+        "imie_nazwisko": "Oscar Larrauri",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "larreta",
+        "imie_nazwisko": "Alberto Rodriguez Larreta",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "larrousse",
+        "imie_nazwisko": "Gérard Larrousse",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "larson",
+        "imie_nazwisko": "Jud Larson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "latifi",
+        "imie_nazwisko": "Nicholas Latifi",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lauda",
+        "imie_nazwisko": "Niki Lauda",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "laurent",
+        "imie_nazwisko": "Roger Laurent",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lavaggi",
+        "imie_nazwisko": "Giovanni Lavaggi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lawrence",
+        "imie_nazwisko": "Chris Lawrence",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lawson",
+        "imie_nazwisko": "Liam Lawson",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "leclerc",
+        "imie_nazwisko": "Charles Leclerc",
+        "narodowosc": "Monegasque",
+        "wygrane": 0
+    },
+    {
+        "driverid": "leclere",
+        "imie_nazwisko": "Michel Leclère",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lederle",
+        "imie_nazwisko": "Neville Lederle",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lees",
+        "imie_nazwisko": "Geoff Lees",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "legat",
+        "imie_nazwisko": "Arthur Legat",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "leoni",
+        "imie_nazwisko": "Lamberto Leoni",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "leston",
+        "imie_nazwisko": "Les Leston",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "levegh",
+        "imie_nazwisko": "Pierre Levegh",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "levrett",
+        "imie_nazwisko": "Bayliss Levrett",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lewis",
+        "imie_nazwisko": "Jackie Lewis",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lewis-evans",
+        "imie_nazwisko": "Stuart Lewis-Evans",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ligier",
+        "imie_nazwisko": "Guy Ligier",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "linden",
+        "imie_nazwisko": "Andy Linden",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lippi",
+        "imie_nazwisko": "Roberto Lippi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "liuzzi",
+        "imie_nazwisko": "Vitantonio Liuzzi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lombardi",
+        "imie_nazwisko": "Lella Lombardi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "londono",
+        "imie_nazwisko": "Ricardo Londoño",
+        "narodowosc": "Colombian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "loof",
+        "imie_nazwisko": "Ernst Loof",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lotterer",
+        "imie_nazwisko": "André Lotterer",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "louveau",
+        "imie_nazwisko": "Henri Louveau",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "love",
+        "imie_nazwisko": "John Love",
+        "narodowosc": "Rhodesian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lovely",
+        "imie_nazwisko": "Pete Lovely",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "loyer",
+        "imie_nazwisko": "Roger Loyer",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lucas",
+        "imie_nazwisko": "Jean Lucas",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lucienbonnet",
+        "imie_nazwisko": "Jean Lucienbonnet",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lunger",
+        "imie_nazwisko": "Brett Lunger",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hayje",
+        "imie_nazwisko": "Boy Lunger",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "macdowel",
+        "imie_nazwisko": "Mike MacDowel",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mackay-fraser",
+        "imie_nazwisko": "Herbert MacKay-Fraser",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mackey",
+        "imie_nazwisko": "Bill Mackey",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "macklin",
+        "imie_nazwisko": "Lance Macklin",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "magee",
+        "imie_nazwisko": "Damien Magee",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "maggs",
+        "imie_nazwisko": "Tony Maggs",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "magill",
+        "imie_nazwisko": "Mike Magill",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "maglioli",
+        "imie_nazwisko": "Umberto Maglioli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "magnussen",
+        "imie_nazwisko": "Jan Magnussen",
+        "narodowosc": "Danish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "kevin_magnussen",
+        "imie_nazwisko": "Kevin Magnussen",
+        "narodowosc": "Danish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "guy_mairesse",
+        "imie_nazwisko": "Guy Mairesse",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mairesse",
+        "imie_nazwisko": "Willy Mairesse",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "maldonado",
+        "imie_nazwisko": "Pastor Maldonado",
+        "narodowosc": "Venezuelan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mansell",
+        "imie_nazwisko": "Nigel Mansell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mantovani",
+        "imie_nazwisko": "Sergio Mantovani",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mantz",
+        "imie_nazwisko": "Johnny Mantz",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "manzon",
+        "imie_nazwisko": "Robert Manzon",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "marimon",
+        "imie_nazwisko": "Onofre Marimón",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "marko",
+        "imie_nazwisko": "Helmut Marko",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "marques",
+        "imie_nazwisko": "Tarso Marques",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "marr",
+        "imie_nazwisko": "Leslie Marr",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "marsh",
+        "imie_nazwisko": "Tony Marsh",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "martin",
+        "imie_nazwisko": "Eugène Martin",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "martini",
+        "imie_nazwisko": "Pierluigi Martini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mass",
+        "imie_nazwisko": "Jochen Mass",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "massa",
+        "imie_nazwisko": "Felipe Massa",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "may",
+        "imie_nazwisko": "Michael May",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mayer",
+        "imie_nazwisko": "Timmy Mayer",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mazepin",
+        "imie_nazwisko": "Nikita Mazepin",
+        "narodowosc": "Russian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mazet",
+        "imie_nazwisko": "François Mazet",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mazzacane",
+        "imie_nazwisko": "Gastón Mazzacane",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcalpine",
+        "imie_nazwisko": "Kenneth McAlpine",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mccarthy",
+        "imie_nazwisko": "Perry McCarthy",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mccoy",
+        "imie_nazwisko": "Ernie McCoy",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcdowell",
+        "imie_nazwisko": "Johnny McDowell",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcgrath",
+        "imie_nazwisko": "Jack McGrath",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcguire",
+        "imie_nazwisko": "Brian McGuire",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mclaren",
+        "imie_nazwisko": "Bruce McLaren",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcnish",
+        "imie_nazwisko": "Allan McNish",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcrae",
+        "imie_nazwisko": "Graham McRae",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mcwithey",
+        "imie_nazwisko": "Jim McWithey",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "menditeguy",
+        "imie_nazwisko": "Carlos Menditeguy",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "merhi",
+        "imie_nazwisko": "Roberto Merhi",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "merzario",
+        "imie_nazwisko": "Arturo Merzario",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mieres",
+        "imie_nazwisko": "Roberto Mieres",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "migault",
+        "imie_nazwisko": "François Migault",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ken_miles",
+        "imie_nazwisko": "Ken Miles",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "miles",
+        "imie_nazwisko": "John Miles",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "milhoux",
+        "imie_nazwisko": "André Milhoux",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "miller",
+        "imie_nazwisko": "Chet Miller",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mitter",
+        "imie_nazwisko": "Gerhard Mitter",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "modena",
+        "imie_nazwisko": "Stefano Modena",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "monarch",
+        "imie_nazwisko": "Thomas Monarch",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "montagny",
+        "imie_nazwisko": "Franck Montagny",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "monteiro",
+        "imie_nazwisko": "Tiago Monteiro",
+        "narodowosc": "Portuguese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "montermini",
+        "imie_nazwisko": "Andrea Montermini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "monteverdi",
+        "imie_nazwisko": "Peter Monteverdi",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "charrington",
+        "imie_nazwisko": "Robin Montgomerie-Charrington",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "morbidelli",
+        "imie_nazwisko": "Gianni Morbidelli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "moreno",
+        "imie_nazwisko": "Roberto Moreno",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "morgan",
+        "imie_nazwisko": "Dave Morgan",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "moser",
+        "imie_nazwisko": "Silvio Moser",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "moss",
+        "imie_nazwisko": "Stirling Moss",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bill_moss",
+        "imie_nazwisko": "Bill Moss",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "munaron",
+        "imie_nazwisko": "Gino Munaron",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "murray",
+        "imie_nazwisko": "David Murray",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "musso",
+        "imie_nazwisko": "Luigi Musso",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "satoru_nakajima",
+        "imie_nazwisko": "Satoru Nakajima",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nakajima",
+        "imie_nazwisko": "Kazuki Nakajima",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nakano",
+        "imie_nazwisko": "Shinji Nakano",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nalon",
+        "imie_nazwisko": "Duke Nalon",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nannini",
+        "imie_nazwisko": "Alessandro Nannini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "naspetti",
+        "imie_nazwisko": "Emanuele Naspetti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nasr",
+        "imie_nazwisko": "Felipe Nasr",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "natili",
+        "imie_nazwisko": "Massimo Natili",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "naylor",
+        "imie_nazwisko": "Brian Naylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nazaruk",
+        "imie_nazwisko": "Mike Nazaruk",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "needell",
+        "imie_nazwisko": "Tiff Needell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nelleman",
+        "imie_nazwisko": "Jac Nelleman",
+        "narodowosc": "Danish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "neve",
+        "imie_nazwisko": "Patrick Nève",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nicholson",
+        "imie_nazwisko": "John Nicholson",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "niday",
+        "imie_nazwisko": "Cal Niday",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "niedermayr",
+        "imie_nazwisko": "Helmut Niedermayr",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "niemann",
+        "imie_nazwisko": "Brausch Niemann",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nilsson",
+        "imie_nazwisko": "Gunnar Nilsson",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "noda",
+        "imie_nazwisko": "Hideki Noda",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "norris",
+        "imie_nazwisko": "Lando Norris",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "nuckey",
+        "imie_nazwisko": "Rodney Nuckey",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "obrien",
+        "imie_nazwisko": "Robert O'Brien",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ocon",
+        "imie_nazwisko": "Esteban Ocon",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "connor",
+        "imie_nazwisko": "Pat O'Connor",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "oliver",
+        "imie_nazwisko": "Jackie Oliver",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ongais",
+        "imie_nazwisko": "Danny Ongais",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "owen",
+        "imie_nazwisko": "Arthur Owen",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "montoya",
+        "imie_nazwisko": "Juan Pablo Montoya",
+        "narodowosc": "Colombian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pace",
+        "imie_nazwisko": "Carlos Pace",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pagani",
+        "imie_nazwisko": "Nello Pagani",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "paletti",
+        "imie_nazwisko": "Riccardo Paletti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "palm",
+        "imie_nazwisko": "Torsten Palm",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "palmer",
+        "imie_nazwisko": "Jonathan Palmer",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jolyon_palmer",
+        "imie_nazwisko": "Jolyon Palmer",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "panis",
+        "imie_nazwisko": "Olivier Panis",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pantano",
+        "imie_nazwisko": "Giorgio Pantano",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "papis",
+        "imie_nazwisko": "Massimiliano Papis",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "parkes",
+        "imie_nazwisko": "Mike Parkes",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "reg_parnell",
+        "imie_nazwisko": "Reg Parnell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "parnell",
+        "imie_nazwisko": "Tim Parnell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "parsons",
+        "imie_nazwisko": "Johnnie Parsons",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "patrese",
+        "imie_nazwisko": "Riccardo Patrese",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pease",
+        "imie_nazwisko": "Al Pease",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "penske",
+        "imie_nazwisko": "Roger Penske",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "perdisa",
+        "imie_nazwisko": "Cesare Perdisa",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "perez",
+        "imie_nazwisko": "Sergio Pérez",
+        "narodowosc": "Mexican",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sala",
+        "imie_nazwisko": "Luis Pérez-Sala",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "perkins",
+        "imie_nazwisko": "Larry Perkins",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pescarolo",
+        "imie_nazwisko": "Henri Pescarolo",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pesenti_rossi",
+        "imie_nazwisko": "Alessandro Pesenti-Rossi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "peters",
+        "imie_nazwisko": "Josef Peters",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "peterson",
+        "imie_nazwisko": "Ronnie Peterson",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "petrov",
+        "imie_nazwisko": "Vitaly Petrov",
+        "narodowosc": "Russian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pian",
+        "imie_nazwisko": "Alfredo Pián",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "piastri",
+        "imie_nazwisko": "Oscar Piastri",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pic",
+        "imie_nazwisko": "Charles Pic",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "picard",
+        "imie_nazwisko": "François Picard",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pieterse",
+        "imie_nazwisko": "Ernie Pieterse",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pietsch",
+        "imie_nazwisko": "Paul Pietsch",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "andre_pilette",
+        "imie_nazwisko": "André Pilette",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pilette",
+        "imie_nazwisko": "Teddy Pilette",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "piotti",
+        "imie_nazwisko": "Luigi Piotti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "piper",
+        "imie_nazwisko": "David Piper",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "piquet",
+        "imie_nazwisko": "Nelson Piquet",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "piquet_jr",
+        "imie_nazwisko": "Nelson Piquet Jr.",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pirocchi",
+        "imie_nazwisko": "Renato Pirocchi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pironi",
+        "imie_nazwisko": "Didier Pironi",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pirro",
+        "imie_nazwisko": "Emanuele Pirro",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pizzonia",
+        "imie_nazwisko": "Antônio Pizzonia",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pollet",
+        "imie_nazwisko": "Jacques Pollet",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pon",
+        "imie_nazwisko": "Ben Pon",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "poore",
+        "imie_nazwisko": "Dennis Poore",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "posey",
+        "imie_nazwisko": "Sam Posey",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pozzi",
+        "imie_nazwisko": "Charles Pozzi",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pretorius",
+        "imie_nazwisko": "Jackie Pretorius",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "prinoth",
+        "imie_nazwisko": "Ernesto Prinoth",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "prophet",
+        "imie_nazwisko": "David Prophet",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "prost",
+        "imie_nazwisko": "Alain Prost",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "pryce",
+        "imie_nazwisko": "Tom Pryce",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "purley",
+        "imie_nazwisko": "David Purley",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "puzey",
+        "imie_nazwisko": "Clive Puzey",
+        "narodowosc": "Rhodesian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "quester",
+        "imie_nazwisko": "Dieter Quester",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "raby",
+        "imie_nazwisko": "Ian Raby",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rahal",
+        "imie_nazwisko": "Bobby Rahal",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "raikkonen",
+        "imie_nazwisko": "Kimi Räikkönen",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "raphanel",
+        "imie_nazwisko": "Pierre-Henri Raphanel",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rathmann",
+        "imie_nazwisko": "Jim Rathmann",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dick_rathmann",
+        "imie_nazwisko": "Dick Rathmann",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ratzenberger",
+        "imie_nazwisko": "Roland Ratzenberger",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rebaque",
+        "imie_nazwisko": "Hector Rebaque",
+        "narodowosc": "Mexican",
+        "wygrane": 0
+    },
+    {
+        "driverid": "redman",
+        "imie_nazwisko": "Brian Redman",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "reece",
+        "imie_nazwisko": "Jimmy Reece",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "reed",
+        "imie_nazwisko": "Ray Reed",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rees",
+        "imie_nazwisko": "Alan Rees",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "regazzoni",
+        "imie_nazwisko": "Clay Regazzoni",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "reutemann",
+        "imie_nazwisko": "Carlos Reutemann",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "reventlow",
+        "imie_nazwisko": "Lance Reventlow",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "revson",
+        "imie_nazwisko": "Peter Revson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rhodes",
+        "imie_nazwisko": "John Rhodes",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ribeiro",
+        "imie_nazwisko": "Alex Ribeiro",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ricciardo",
+        "imie_nazwisko": "Daniel Ricciardo",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "richardson",
+        "imie_nazwisko": "Ken Richardson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "riess",
+        "imie_nazwisko": "Fritz Riess",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rigsby",
+        "imie_nazwisko": "Jim Rigsby",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rindt",
+        "imie_nazwisko": "Jochen Rindt",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "riseley_prichard",
+        "imie_nazwisko": "John Riseley-Prichard",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "robarts",
+        "imie_nazwisko": "Richard Robarts",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ricardo_rodriguez",
+        "imie_nazwisko": "Ricardo Rodríguez",
+        "narodowosc": "Mexican",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rodriguez",
+        "imie_nazwisko": "Pedro Rodríguez",
+        "narodowosc": "Mexican",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rol",
+        "imie_nazwisko": "Franco Rol",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rollinson",
+        "imie_nazwisko": "Alan Rollinson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rolt",
+        "imie_nazwisko": "Tony Rolt",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "roos",
+        "imie_nazwisko": "Bertil Roos",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "keke_rosberg",
+        "imie_nazwisko": "Keke Rosberg",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rosberg",
+        "imie_nazwisko": "Nico Rosberg",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rose",
+        "imie_nazwisko": "Mauri Rose",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rosier",
+        "imie_nazwisko": "Louis Rosier",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rosset",
+        "imie_nazwisko": "Ricardo Rosset",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rossi",
+        "imie_nazwisko": "Alexander Rossi",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rothengatter",
+        "imie_nazwisko": "Huub Rothengatter",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ruby",
+        "imie_nazwisko": "Lloyd Ruby",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "russell",
+        "imie_nazwisko": "George Russell",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "paul_russo",
+        "imie_nazwisko": "Paul Russo",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "russo",
+        "imie_nazwisko": "Eddie Russo",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "geki",
+        "imie_nazwisko": "Giacomo Russo",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ruttman",
+        "imie_nazwisko": "Troy Ruttman",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ryan",
+        "imie_nazwisko": "Peter Ryan",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sachs",
+        "imie_nazwisko": "Eddie Sachs",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "said",
+        "imie_nazwisko": "Bob Said",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sainz",
+        "imie_nazwisko": "Carlos Sainz",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "salazar",
+        "imie_nazwisko": "Eliseo Salazar",
+        "narodowosc": "Chilean",
+        "wygrane": 0
+    },
+    {
+        "driverid": "salo",
+        "imie_nazwisko": "Mika Salo",
+        "narodowosc": "Finnish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "salvadori",
+        "imie_nazwisko": "Roy Salvadori",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sanesi",
+        "imie_nazwisko": "Consalvo Sanesi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sargeant",
+        "imie_nazwisko": "Logan Sargeant",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sarrazin",
+        "imie_nazwisko": "Stéphane Sarrazin",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sato",
+        "imie_nazwisko": "Takuma Sato",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scarborough",
+        "imie_nazwisko": "Carl Scarborough",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scarfiotti",
+        "imie_nazwisko": "Ludovico Scarfiotti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scarlatti",
+        "imie_nazwisko": "Giorgio Scarlatti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scheckter",
+        "imie_nazwisko": "Jody Scheckter",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ian_scheckter",
+        "imie_nazwisko": "Ian Scheckter",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schell",
+        "imie_nazwisko": "Harry Schell",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schenken",
+        "imie_nazwisko": "Tim Schenken",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scherrer",
+        "imie_nazwisko": "Albert Scherrer",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schiattarella",
+        "imie_nazwisko": "Domenico Schiattarella",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schiller",
+        "imie_nazwisko": "Heinz Schiller",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schindler",
+        "imie_nazwisko": "Bill Schindler",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jo_schlesser",
+        "imie_nazwisko": "Jo Schlesser",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schlesser",
+        "imie_nazwisko": "Jean-Louis Schlesser",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schneider",
+        "imie_nazwisko": "Bernd Schneider",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schoeller",
+        "imie_nazwisko": "Rudolf Schoeller",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schroeder",
+        "imie_nazwisko": "Rob Schroeder",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "michael_schumacher",
+        "imie_nazwisko": "Michael Schumacher",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ralf_schumacher",
+        "imie_nazwisko": "Ralf Schumacher",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mick_schumacher",
+        "imie_nazwisko": "Mick Schumacher",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "schuppan",
+        "imie_nazwisko": "Vern Schuppan",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bob_scott",
+        "imie_nazwisko": "Bob Scott",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scott_Brown",
+        "imie_nazwisko": "Archie Scott Brown",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "scotti",
+        "imie_nazwisko": "Piero Scotti",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "seidel",
+        "imie_nazwisko": "Wolfgang Seidel",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "seiffert",
+        "imie_nazwisko": "Günther Seiffert",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "senna",
+        "imie_nazwisko": "Ayrton Senna",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "bruno_senna",
+        "imie_nazwisko": "Bruno Senna",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "serafini",
+        "imie_nazwisko": "Dorino Serafini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "serra",
+        "imie_nazwisko": "Chico Serra",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "serrurier",
+        "imie_nazwisko": "Doug Serrurier",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gavin",
+        "imie_nazwisko": "Johnny Servoz-Gavin",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "settember",
+        "imie_nazwisko": "Tony Settember",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sharp",
+        "imie_nazwisko": "Hap Sharp",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "shawe_taylor",
+        "imie_nazwisko": "Brian Shawe Taylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "shelby",
+        "imie_nazwisko": "Carroll Shelby",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "shelly",
+        "imie_nazwisko": "Tony Shelly",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "siffert",
+        "imie_nazwisko": "Jo Siffert",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "simon",
+        "imie_nazwisko": "André Simon",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sirotkin",
+        "imie_nazwisko": "Sergey Sirotkin",
+        "narodowosc": "Russian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "slotemaker",
+        "imie_nazwisko": "Rob Slotemaker",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "solana",
+        "imie_nazwisko": "Moisés Solana",
+        "narodowosc": "Mexican",
+        "wygrane": 0
+    },
+    {
+        "driverid": "roig",
+        "imie_nazwisko": "Alex Soler-Roig",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sommer",
+        "imie_nazwisko": "Raymond Sommer",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sospiri",
+        "imie_nazwisko": "Vincenzo Sospiri",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "south",
+        "imie_nazwisko": "Stephen South",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sparken",
+        "imie_nazwisko": "Mike Sparken",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "speed",
+        "imie_nazwisko": "Scott Speed",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "spence",
+        "imie_nazwisko": "Mike Spence",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stacey",
+        "imie_nazwisko": "Alan Stacey",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "starrabba",
+        "imie_nazwisko": "Gaetano Starrabba",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stevens",
+        "imie_nazwisko": "Will Stevens",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stevenson",
+        "imie_nazwisko": "Chuck Stevenson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jimmy_stewart",
+        "imie_nazwisko": "Jimmy Stewart",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ian_stewart",
+        "imie_nazwisko": "Ian Stewart",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stewart",
+        "imie_nazwisko": "Jackie Stewart",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stohr",
+        "imie_nazwisko": "Siegfried Stohr",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stommelen",
+        "imie_nazwisko": "Rolf Stommelen",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "streiff",
+        "imie_nazwisko": "Philippe Streiff",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stroll",
+        "imie_nazwisko": "Lance Stroll",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stuck",
+        "imie_nazwisko": "Hans-Joachim Stuck",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "stuppacher",
+        "imie_nazwisko": "Otto Stuppacher",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sullivan",
+        "imie_nazwisko": "Danny Sullivan",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "surer",
+        "imie_nazwisko": "Marc Surer",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "surtees",
+        "imie_nazwisko": "John Surtees",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sutcliffe",
+        "imie_nazwisko": "Andy Sutcliffe",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sutil",
+        "imie_nazwisko": "Adrian Sutil",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sutton",
+        "imie_nazwisko": "Len Sutton",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "suzuki",
+        "imie_nazwisko": "Aguri Suzuki",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "toshio_suzuki",
+        "imie_nazwisko": "Toshio Suzuki",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "swaters",
+        "imie_nazwisko": "Jacques Swaters",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "sweikert",
+        "imie_nazwisko": "Bob Sweikert",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "takagi",
+        "imie_nazwisko": "Toranosuke Takagi",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "takahara",
+        "imie_nazwisko": "Noritake Takahara",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "takahashi",
+        "imie_nazwisko": "Kunimitsu Takahashi",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tambay",
+        "imie_nazwisko": "Patrick Tambay",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "taramazzo",
+        "imie_nazwisko": "Luigi Taramazzo",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tarquini",
+        "imie_nazwisko": "Gabriele Tarquini",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "taruffi",
+        "imie_nazwisko": "Piero Taruffi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "henry_taylor",
+        "imie_nazwisko": "Henry Taylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "mike_taylor",
+        "imie_nazwisko": "Mike Taylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dennis_taylor",
+        "imie_nazwisko": "Dennis Taylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "trevor_taylor",
+        "imie_nazwisko": "Trevor Taylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "taylor",
+        "imie_nazwisko": "John Taylor",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "teague",
+        "imie_nazwisko": "Marshall Teague",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "templeman",
+        "imie_nazwisko": "Shorty Templeman",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "testut",
+        "imie_nazwisko": "André Testut",
+        "narodowosc": "Monegasque",
+        "wygrane": 0
+    },
+    {
+        "driverid": "thackwell",
+        "imie_nazwisko": "Mike Thackwell",
+        "narodowosc": "New Zealander",
+        "wygrane": 0
+    },
+    {
+        "driverid": "thiele",
+        "imie_nazwisko": "Alfonso Thiele",
+        "narodowosc": "American-Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "thompson",
+        "imie_nazwisko": "Eric Thompson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "thomson",
+        "imie_nazwisko": "Johnny Thomson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "thorne",
+        "imie_nazwisko": "Leslie Thorne",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tingelstad",
+        "imie_nazwisko": "Bud Tingelstad",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tingle",
+        "imie_nazwisko": "Sam Tingle",
+        "narodowosc": "Rhodesian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "titterington",
+        "imie_nazwisko": "Desmond Titterington",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tolan",
+        "imie_nazwisko": "Johnnie Tolan",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "trimmer",
+        "imie_nazwisko": "Tony Trimmer",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "trintignant",
+        "imie_nazwisko": "Maurice Trintignant",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "trulli",
+        "imie_nazwisko": "Jarno Trulli",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tsunoda",
+        "imie_nazwisko": "Yuki Tsunoda",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tuero",
+        "imie_nazwisko": "Esteban Tuero",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    },
+    {
+        "driverid": "tunmer",
+        "imie_nazwisko": "Guy Tunmer",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "turner",
+        "imie_nazwisko": "Jack Turner",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ulmen",
+        "imie_nazwisko": "Toni Ulmen",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "jerry_unser",
+        "imie_nazwisko": "Jerry Unser",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "unser",
+        "imie_nazwisko": "Bobby Unser",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "uria",
+        "imie_nazwisko": "Alberto Uria",
+        "narodowosc": "Uruguayan",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vaccarella",
+        "imie_nazwisko": "Nino Vaccarella",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "poele",
+        "imie_nazwisko": "Eric van de Poele",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "garde",
+        "imie_nazwisko": "Giedo van der Garde",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lof",
+        "imie_nazwisko": "Dries van der Lof",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vyver",
+        "imie_nazwisko": "Syd van der Vyver",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vandoorne",
+        "imie_nazwisko": "Stoffel Vandoorne",
+        "narodowosc": "Belgian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "lennep",
+        "imie_nazwisko": "Gijs van Lennep",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "rooyen",
+        "imie_nazwisko": "Basil van Rooyen",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "veith",
+        "imie_nazwisko": "Bob Veith",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vergne",
+        "imie_nazwisko": "Jean-Éric Vergne",
+        "narodowosc": "French",
+        "wygrane": 0
+    },
+    {
+        "driverid": "verstappen",
+        "imie_nazwisko": "Jos Verstappen",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "max_verstappen",
+        "imie_nazwisko": "Max Verstappen",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vettel",
+        "imie_nazwisko": "Sebastian Vettel",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "gilles_villeneuve",
+        "imie_nazwisko": "Gilles Villeneuve",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "villeneuve",
+        "imie_nazwisko": "Jacques Villeneuve",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "villeneuve_sr",
+        "imie_nazwisko": "Jacques Villeneuve Sr.",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "villoresi",
+        "imie_nazwisko": "Luigi Villoresi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "volonterio",
+        "imie_nazwisko": "Ottorino Volonterio",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vonlanthen",
+        "imie_nazwisko": "Jo Vonlanthen",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "opel",
+        "imie_nazwisko": "Rikky von Opel",
+        "narodowosc": "Liechtensteiner",
+        "wygrane": 0
+    },
+    {
+        "driverid": "hans_stuck",
+        "imie_nazwisko": "Hans von Stuck",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "trips",
+        "imie_nazwisko": "Wolfgang von Trips",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vukovich",
+        "imie_nazwisko": "Bill Vukovich",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wacker",
+        "imie_nazwisko": "Fred Wacker",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "peter_walker",
+        "imie_nazwisko": "Peter Walker",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "walker",
+        "imie_nazwisko": "David Walker",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wallard",
+        "imie_nazwisko": "Lee Wallard",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "walter",
+        "imie_nazwisko": "Heini Walter",
+        "narodowosc": "Swiss",
+        "wygrane": 0
+    },
+    {
+        "driverid": "ward",
+        "imie_nazwisko": "Rodger Ward",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "warwick",
+        "imie_nazwisko": "Derek Warwick",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "watson",
+        "imie_nazwisko": "John Watson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "webb",
+        "imie_nazwisko": "Travis Webb",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "webber",
+        "imie_nazwisko": "Mark Webber",
+        "narodowosc": "Australian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wehrlein",
+        "imie_nazwisko": "Pascal Wehrlein",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "weidler",
+        "imie_nazwisko": "Volker Weidler",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "weiler",
+        "imie_nazwisko": "Wayne Weiler",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wendlinger",
+        "imie_nazwisko": "Karl Wendlinger",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "westbury",
+        "imie_nazwisko": "Peter Westbury",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "weyant",
+        "imie_nazwisko": "Chuck Weyant",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wharton",
+        "imie_nazwisko": "Ken Wharton",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "whiteaway",
+        "imie_nazwisko": "Ted Whiteaway",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "whitehead",
+        "imie_nazwisko": "Peter Whitehead",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "graham_whitehead",
+        "imie_nazwisko": "Graham Whitehead",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "whitehouse",
+        "imie_nazwisko": "Bill Whitehouse",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "widdows",
+        "imie_nazwisko": "Robin Widdows",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wietzes",
+        "imie_nazwisko": "Eppie Wietzes",
+        "narodowosc": "Canadian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wilds",
+        "imie_nazwisko": "Mike Wilds",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "williams",
+        "imie_nazwisko": "Jonathan Williams",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "williamson",
+        "imie_nazwisko": "Roger Williamson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "dempsey_wilson",
+        "imie_nazwisko": "Dempsey Wilson",
+        "narodowosc": "American",
+        "wygrane": 0
+    },
+    {
+        "driverid": "vic_wilson",
+        "imie_nazwisko": "Vic Wilson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "desire_wilson",
+        "imie_nazwisko": "Desiré Wilson",
+        "narodowosc": "South African",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wilson",
+        "imie_nazwisko": "Justin Wilson",
+        "narodowosc": "British",
+        "wygrane": 0
+    },
+    {
+        "driverid": "manfred_winkelhock",
+        "imie_nazwisko": "Manfred Winkelhock",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "joachim_winkelhock",
+        "imie_nazwisko": "Joachim Winkelhock",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "markus_winkelhock",
+        "imie_nazwisko": "Markus Winkelhock",
+        "narodowosc": "German",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wisell",
+        "imie_nazwisko": "Reine Wisell",
+        "narodowosc": "Swedish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wunderink",
+        "imie_nazwisko": "Roelof Wunderink",
+        "narodowosc": "Dutch",
+        "wygrane": 0
+    },
+    {
+        "driverid": "wurz",
+        "imie_nazwisko": "Alexander Wurz",
+        "narodowosc": "Austrian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "yamamoto",
+        "imie_nazwisko": "Sakon Yamamoto",
+        "narodowosc": "Japanese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "yoong",
+        "imie_nazwisko": "Alex Yoong",
+        "narodowosc": "Malaysian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "zanardi",
+        "imie_nazwisko": "Alessandro Zanardi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "zapico",
+        "imie_nazwisko": "Emilio Zapico",
+        "narodowosc": "Spanish",
+        "wygrane": 0
+    },
+    {
+        "driverid": "zhou",
+        "imie_nazwisko": "Guanyu Zhou",
+        "narodowosc": "Chinese",
+        "wygrane": 0
+    },
+    {
+        "driverid": "zonta",
+        "imie_nazwisko": "Ricardo Zonta",
+        "narodowosc": "Brazilian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "zorzi",
+        "imie_nazwisko": "Renzo Zorzi",
+        "narodowosc": "Italian",
+        "wygrane": 0
+    },
+    {
+        "driverid": "zunino",
+        "imie_nazwisko": "Ricardo Zunino",
+        "narodowosc": "Argentine",
+        "wygrane": 0
+    }
+]

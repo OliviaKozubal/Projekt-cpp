@@ -3,9 +3,7 @@
 #include "Kalendarz.h"
 #include "Wyniki.h"
 #include "Kierowcy.h"
-#include "Zespoly.h"
 #include "FetchData.h"
-
 #include <QVBoxLayout>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) 
@@ -25,10 +23,9 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     stackedWidget->addWidget(new Kalendarz(this));
     stackedWidget->addWidget(new Wyniki(this));
     stackedWidget->addWidget(new Kierowcy(this));
-    stackedWidget->addWidget(new Zespoly(this));
 
     QHBoxLayout *poziomo = new QHBoxLayout();
-    QStringList etykiety = { "Główna", "Kalendarz", "Wyniki", "Kierowcy", "Zespoły"};
+    QStringList etykiety = { "Główna", "Kalendarz", "Wyniki", "Kierowcy"};
     
     for (int i = 0; i < etykiety.size(); ++i) {
         QPushButton *button = new QPushButton(etykiety[i], this);

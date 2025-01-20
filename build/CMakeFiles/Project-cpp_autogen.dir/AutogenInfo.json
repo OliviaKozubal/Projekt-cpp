@@ -348,15 +348,15 @@
 			null
 		],
 		[
-			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.h",
+			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Save_Load.h",
 			"MU",
-			"EWIEGA46WW/moc_Wyniki.cpp",
+			"EWIEGA46WW/moc_Save_Load.cpp",
 			null
 		],
 		[
-			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Zespoly.h",
+			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.h",
 			"MU",
-			"EWIEGA46WW/moc_Zespoly.cpp",
+			"EWIEGA46WW/moc_Wyniki.cpp",
 			null
 		],
 		[
@@ -368,53 +368,14 @@
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_Debug",
-	"INCLUDE_DIR_RelWithDebInfo" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_RelWithDebInfo",
-	"INCLUDE_DIR_Release" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include_Release",
 	"MOC_COMPILATION_FILE" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_RelWithDebInfo" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/mocs_compilation_RelWithDebInfo.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/mocs_compilation_Release.cpp",
-	"MOC_DEFINITIONS" : [],
-	"MOC_DEFINITIONS_Debug" : 
+	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NEEDS_QMAIN",
 		"QT_NETWORK_LIB",
-		"QT_WIDGETS_LIB",
-		"UNICODE",
-		"WIN32",
-		"WIN64",
-		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
-		"_UNICODE",
-		"_WIN64"
-	],
-	"MOC_DEFINITIONS_RelWithDebInfo" : 
-	[
-		"MINGW_HAS_SECURE_API=1",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NEEDS_QMAIN",
-		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
-		"QT_WIDGETS_LIB",
-		"UNICODE",
-		"WIN32",
-		"WIN64",
-		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
-		"_UNICODE",
-		"_WIN64"
-	],
-	"MOC_DEFINITIONS_Release" : 
-	[
-		"MINGW_HAS_SECURE_API=1",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_NEEDS_QMAIN",
-		"QT_NETWORK_LIB",
-		"QT_NO_DEBUG",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -430,38 +391,7 @@
 			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
 		]
 	],
-	"MOC_INCLUDES" : [],
-	"MOC_INCLUDES_Debug" : 
-	[
-		"C:/Qt/6.8.0/mingw_64/include/QtCore",
-		"C:/Qt/6.8.0/mingw_64/include",
-		"C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++",
-		"C:/Qt/6.8.0/mingw_64/include/QtWidgets",
-		"C:/Qt/6.8.0/mingw_64/include/QtGui",
-		"C:/Qt/6.8.0/mingw_64/include/QtNetwork",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
-		"C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
-	],
-	"MOC_INCLUDES_RelWithDebInfo" : 
-	[
-		"C:/Qt/6.8.0/mingw_64/include/QtCore",
-		"C:/Qt/6.8.0/mingw_64/include",
-		"C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++",
-		"C:/Qt/6.8.0/mingw_64/include/QtWidgets",
-		"C:/Qt/6.8.0/mingw_64/include/QtGui",
-		"C:/Qt/6.8.0/mingw_64/include/QtNetwork",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
-		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
-		"C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include"
-	],
-	"MOC_INCLUDES_Release" : 
+	"MOC_INCLUDES" : 
 	[
 		"C:/Qt/6.8.0/mingw_64/include/QtCore",
 		"C:/Qt/6.8.0/mingw_64/include",
@@ -497,28 +427,19 @@
 		"C:/Programy/mingw64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs.h",
-	"MOC_PREDEFS_FILE_Debug" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs_Debug.h",
-	"MOC_PREDEFS_FILE_RelWithDebInfo" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs_RelWithDebInfo.h",
-	"MOC_PREDEFS_FILE_Release" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs_Release.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
 		"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/qrc_zasoby.cpp"
 	],
-	"MULTI_CONFIG" : true,
+	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
 	"PARSE_CACHE_FILE" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_RelWithDebInfo" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/ParseCache_RelWithDebInfo.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.8.0/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.8.0/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
 	"SETTINGS_FILE" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_RelWithDebInfo" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/CMakeFiles/Project-cpp_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
@@ -542,12 +463,12 @@
 			null
 		],
 		[
-			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.cpp",
+			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Save_Load.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Zespoly.cpp",
+			"C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Wyniki.cpp",
 			"MU",
 			null
 		],

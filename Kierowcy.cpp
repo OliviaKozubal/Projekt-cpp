@@ -1,5 +1,6 @@
 #include "Kierowcy.h"
 #include "FetchData.h"
+#include "Save_Load.h"
 
 Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(this)), TablicaKierowcy(new QTableWidget(this)), sortComboBox(new QComboBox(this)), filtrComboBox(new QComboBox(this)), searchLineEdit(new QLineEdit(this)), searchByComboBox(new QComboBox(this))
 {
@@ -12,6 +13,7 @@ Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(th
 
     sortComboBox->addItem("Sortuj alfabetycznie rosnąco");
     sortComboBox->addItem("Sortuj alfabetycznie malejąco");
+
     filtrComboBox->addItem("Pokaż wszystkich");
     filtrComboBox->addItem("Mistrzowie świata");
 
@@ -31,16 +33,43 @@ Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(th
 
     setLayout(layout);
 
-    //connect(filtrComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Filtruj);
+    connect(filtrComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Filtr);
     connect(sortComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Sortuj);
     connect(TablicaKierowcy, &QTableWidget::cellClicked, this, &Kierowcy::onKierowcaClicked);
     connect(searchLineEdit, &QLineEdit::textChanged, this, &Kierowcy::Wyszukaj);
     connect(searchByComboBox, &QComboBox::currentIndexChanged, this, &Kierowcy::Wyszukaj);
 
-    FetchData *fetch = new FetchData(this);
-    connect(fetch, &FetchData::KierowcyPobrano, this, &Kierowcy::Przypisz);
-    fetch->Kierowcy();
+    Kierowcy_z_pliku();
+}
+
+void Kierowcy::Kierowcy_z_pliku()
+{
+    QFile file("C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/kierowcy.json");
+    if (!file.open(QIODevice::ReadOnly)) {
+        return;
+    }
+
+    QByteArray data = file.readAll();
+    file.close();
+
+    QJsonDocument doc = QJsonDocument::fromJson(data);
+
+    QJsonArray jsonArray = doc.array();
+    QList<QStringList> kierowcy;
     
+    for (const QJsonValue &value : jsonArray) {
+        if (value.isObject()) {
+            QJsonObject obj = value.toObject();
+            QString imieNazwisko = obj["imie_nazwisko"].toString();
+            QString narodowosc = obj["narodowosc"].toString();
+            QString driverId = obj["driverid"].toString();
+            kierowcy.append({imieNazwisko, narodowosc, driverId});
+        }
+    }
+
+    kierowcyLista = kierowcy;
+    przefiltrowani = kierowcy;
+    wyswietlKierowcy(kierowcy);
 }
 
 void Kierowcy::onKierowcaClicked(int row, int column)
@@ -74,13 +103,6 @@ void Kierowcy::Sortuj(int index)
     }
 
     wyswietlKierowcy(przefiltrowani);
-}
-
-void Kierowcy::Przypisz(const QList<QStringList> &kierowcy)
-{
-    kierowcyLista = kierowcy;
-    przefiltrowani = kierowcy;
-    wyswietlKierowcy(kierowcy);
 }
 
 void Kierowcy::wyswietlKierowcy(const QList<QStringList> &kierowcy) 
@@ -126,3 +148,44 @@ void Kierowcy::FiltrujWyszukaj(int index)
         }
     wyswietlKierowcy(przefiltrowani);
 }
+
+void Kierowcy::Filtr()
+{
+    FiltrujFiltr(filtrComboBox->currentIndex());
+}
+
+void Kierowcy::FiltrujFiltr(int index)
+{
+    przefiltrowani.clear();
+
+    if (index == 0)
+        przefiltrowani = kierowcyLista;
+     else if (index == 1) {
+        QList<QString> mistrzID;
+        QFile file("C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/mistrzowie.json");
+        if (file.open(QIODevice::ReadOnly)) {
+            QByteArray data = file.readAll();
+            file.close();
+
+            QJsonDocument doc = QJsonDocument::fromJson(data);
+            if (doc.isArray()) {
+                QJsonArray jsonArray = doc.array();
+                for (const QJsonValue &value : jsonArray) {
+                    if (value.isObject()) {
+                        QJsonObject obj = value.toObject();
+                        if (obj.contains("driverid") && obj["driverid"].isString()) {
+                            mistrzID.append(obj["driverid"].toString());
+        }   }   }   }   }
+
+        for (const auto &kierowca : kierowcyLista) {
+            QString driverIdKierowcy = kierowca[2];
+            if (mistrzID.contains(driverIdKierowcy)) {
+                przefiltrowani.append(kierowca);
+            }
+        }
+    }
+
+    wyswietlKierowcy(przefiltrowani);
+}
+
+

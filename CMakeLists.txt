@@ -23,12 +23,12 @@ set(PROJECT_SOURCES
         Kierowcy.h
         Wyniki.cpp
         Wyniki.h
-        Zespoly.cpp
-        Zespoly.h
         Glowna.cpp
         Glowna.h
         FetchData.cpp
         FetchData.h
+        Save_Load.cpp
+        Save_Load.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
