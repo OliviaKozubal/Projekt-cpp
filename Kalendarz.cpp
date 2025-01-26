@@ -1,103 +1,133 @@
-#include "Kalendarz.h"
-#include <QPushButton>
-#include <QLabel>
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-#include <QGridLayout>
-#include <QDate>
-#include <QDebug>
+#include "kalendarz.h"
 
-Kalendarz::Kalendarz(QWidget *parent) : QWidget(parent), aktData(2024, 1, 1) {
-    rokLabel = new QLabel(this);
+Kalendarz::Kalendarz(QWidget *parent) : QWidget(parent), Data(QDate(2024, QDate::currentDate().month(), 1)) {
+    auto *mainLayout = new QVBoxLayout(this);
+
+    auto *headerLayout = new QHBoxLayout();
     QPushButton *poprzButton = new QPushButton("<", this);
     QPushButton *nastButton = new QPushButton(">", this);
+    miesLabel = new QLabel(this);
+    miesLabel->setAlignment(Qt::AlignCenter);
 
-    headerLayout = new QHBoxLayout;
     headerLayout->addWidget(poprzButton);
-    headerLayout->addWidget(rokLabel);
+    headerLayout->addWidget(miesLabel);
     headerLayout->addWidget(nastButton);
-
-    mainLayout = new QVBoxLayout(this);
     mainLayout->addLayout(headerLayout);
 
-    kalLayout = new QGridLayout();
-    mainLayout->addLayout(kalLayout);
+    kalendarzLayout = new QGridLayout();
+    mainLayout->addLayout(kalendarzLayout);
 
+    connect(poprzButton, &QPushButton::clicked, this, &Kalendarz::poprzMonth);
+    connect(nastButton, &QPushButton::clicked, this, &Kalendarz::nastMonth);
+
+    QString sciezka = QCoreApplication::applicationDirPath() + "/daty_2024.json";
+    wczytajDaty(sciezka);
     update();
-
-    connect(poprzButton, &QPushButton::clicked, this, &Kalendarz::poprzMiesiac);
-    connect(nastButton, &QPushButton::clicked, this, &Kalendarz::nastMiesiac);
 }
 
-void Kalendarz::poprzMiesiac() {
-    if (aktData.month() > 1) {
-        aktData = aktData.addMonths(-1);
-        update();
-    }
+void Kalendarz::wczytajDaty(const QString &sciezka) {
+    QFile file(sciezka);
+    if (!file.open(QIODevice::ReadOnly))
+        return;
+
+    QByteArray data = file.readAll();
+    file.close();
+
+    QJsonDocument doc = QJsonDocument::fromJson(data);
+
+    QJsonObject root = doc.object();
+    for (const QString &dateString : root.keys()) {
+        QDate date = QDate::fromString(dateString, "yyyy-MM-dd");
+
+        QJsonArray eventArray = root.value(dateString).toArray();
+        for (const QJsonValue &value : eventArray) {
+            if (value.isObject()) {
+                QJsonObject eventObject = value.toObject();
+                QString nazwa = eventObject.value("name").toString();
+                QString localTime = eventObject.value("localTime").toString();
+
+                QTime czas = QTime::fromString(localTime, "HH:mm:ss");
+                QString kCzas = czas.toString("HH:mm");
+
+                QString szczegoly = nazwa + " (" + kCzas + ")";
+                if (!nazwa.isEmpty()) {
+                    wydarzenia[date].append(szczegoly);
+                }}}}
 }
 
-void Kalendarz::nastMiesiac() {
-    if (aktData.month() < 12) {
-        aktData = aktData.addMonths(1);
-        update();
-    }
+void Kalendarz::poprzMonth() {
+    if (Data.month() == 1) return;
+    Data = Data.addMonths(-1);
+    update();
+}
+
+void Kalendarz::nastMonth() {
+    if (Data.month() == 12) return;
+    Data = Data.addMonths(1);
+    update();
 }
 
 void Kalendarz::update() {
-    QString nazwaM = aktData.toString("MMMM");
-    QString rokTekst = QString("%1 - %2").arg(aktData.toString("yyyy")).arg(nazwaM);
+    miesLabel->setText(Data.toString("MMMM yyyy"));
+    miesLabel->setStyleSheet("font-size: 24px; font-weight: bold;");
 
-    rokLabel->setText(rokTekst);
-    rokLabel->setAlignment(Qt::AlignCenter);
-
-    QFont font = rokLabel->font();
-    font.setPointSize(18);
-    font.setBold(true);
-    rokLabel->setFont(font);
-
-    if (calendarContainer) {
-        delete calendarContainer;
-        calendarContainer = nullptr;
+    QLayoutItem *item;
+    while ((item = kalendarzLayout->takeAt(0)) != nullptr) {
+        delete item->widget();
+        delete item;
     }
 
-    tworzKalendarz();
-}
+    QStringList dni = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+    for (int i = 0; i < dni.size(); ++i) {
+        auto *label = new QLabel(dni[i], this);
+        label->setAlignment(Qt::AlignCenter);
+        label->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px; font-size: 18px; font-weight: bold;");
+        kalendarzLayout->addWidget(label, 0, i);
+    }
 
-void Kalendarz::tworzKalendarz() {
-    calendarContainer = new QWidget(this);
+    QDate pierwszyDzien(Data.year(), Data.month(), 1);
+    int col1 = (pierwszyDzien.dayOfWeek() + 5) % 7;
+    int row = 1;
 
-    QGridLayout *gridLayout = new QGridLayout(calendarContainer);
-    calendarContainer->setLayout(gridLayout);
+    for (int i = 0; i < col1; ++i) {
+        auto *emptyLabel = new QLabel(this);
+        emptyLabel->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px;");
+        kalendarzLayout->addWidget(emptyLabel, row, i);
+    }
 
-    calendarContainer->setStyleSheet(
-        "border: 4px solid red; "
-        "border-radius: 15px; "
-        "padding: 10px; "
-    );
+    for (int day = 1; day <= pierwszyDzien.daysInMonth(); ++day) {
+        QDate date(Data.year(), Data.month(), day);
 
-    int dniMiesiac = aktData.daysInMonth();
-    int pierwszy = aktData.dayOfWeek();
+        QString text = QString::number(day);
+        QString eventText = etykieta(date);
+        if (!eventText.isEmpty()) {
+            text += "\n\n" + eventText;
+        }
 
-    int licznik = 1;
-    for (int i = 0; i < 6; ++i) {
-        for (int j = 0; j < 7; ++j) {
-            if (i == 0 && j < pierwszy - 1) {
-                continue;
-            }
-            if (licznik > dniMiesiac) {
-                break;
-            }
+        auto *label = new QLabel(text, this);
+        label->setAlignment(Qt::AlignTop | Qt::AlignHCenter);
+        label->setWordWrap(true);
 
-            QPushButton *okno = new QPushButton(QString::number(licznik), this);
+        label->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px; font-size: 16px; font-weight: bold;");
 
-            QFont font = okno->font();
-            font.setBold(true);
-            font.setPointSize(12);
-            okno->setFont(font);
-
-            gridLayout->addWidget(okno, i, j);
-            ++licznik;
+        kalendarzLayout->addWidget(label, row, col1);
+        if (++col1 > 6) {
+            col1 = 0;
+            ++row;
         }
     }
-    mainLayout->addWidget(calendarContainer);
+
+    while (col1 <= 6) {
+        auto *emptyLabel = new QLabel(this);
+        emptyLabel->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px;");
+        kalendarzLayout->addWidget(emptyLabel, row, col1++);
+    }
+}
+
+QString Kalendarz::etykieta(const QDate &date) {
+    QStringList szczegoly;
+    if (wydarzenia.contains(date))
+        for (const QString &event : wydarzenia.value(date))
+            szczegoly.append(event); 
+    return szczegoly.join("\n");
 }

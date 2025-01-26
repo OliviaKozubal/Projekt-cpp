@@ -1,20 +1,12 @@
 C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/EWIEGA46WW/moc_Glowna.cpp: C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Glowna.h \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs.h \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QFlags \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QIODevice \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QMetaType \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QObject \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QSharedDataPointer \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QUrl \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QVariant \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QDateTime \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q23utility.h \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/q26numeric.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qanystringview.h \
@@ -25,6 +17,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -42,7 +35,6 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcontiguouscache.h \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/qcryptographichash.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdatetime.h \
@@ -122,6 +114,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -167,27 +160,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/QNetworkAccessManager \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/QNetworkReply \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/QNetworkRequest \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/QSslConfiguration \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qabstractsocket.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qhostaddress.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qhttpheaders.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qnetworkaccessmanager.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qnetworkreply.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qnetworkrequest.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qssl.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qsslcertificate.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qsslconfiguration.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qsslerror.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qsslsocket.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtcpsocket.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetwork-config.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetworkexports.h \
-  C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHeaderView \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QTableWidget \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QVBoxLayout \
@@ -200,6 +173,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qheaderview.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
@@ -421,5 +395,4 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/FetchData.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h

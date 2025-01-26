@@ -49,12 +49,6 @@
 },
 {
   "directory": "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build",
-  "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork -g -std=gnu++17 -o CMakeFiles\\Project-cpp.dir\\Save_Load.cpp.obj -c C:\\Users\\Holin\\Desktop\\Studia\\StudiaRok2\\Semestr3\\ProjektC++\\Projekt-cpp\\Save_Load.cpp",
-  "file": "C:\\Users\\Holin\\Desktop\\Studia\\StudiaRok2\\Semestr3\\ProjektC++\\Projekt-cpp\\Save_Load.cpp",
-  "output": "CMakeFiles\\Project-cpp.dir\\Save_Load.cpp.obj"
-},
-{
-  "directory": "C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build",
   "command": "c:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtNetwork -g -std=gnu++17 -o CMakeFiles\\Project-cpp.dir\\qrc_zasoby.cpp.obj -c C:\\Users\\Holin\\Desktop\\Studia\\StudiaRok2\\Semestr3\\ProjektC++\\Projekt-cpp\\build\\qrc_zasoby.cpp",
   "file": "C:\\Users\\Holin\\Desktop\\Studia\\StudiaRok2\\Semestr3\\ProjektC++\\Projekt-cpp\\build\\qrc_zasoby.cpp",
   "output": "CMakeFiles\\Project-cpp.dir\\qrc_zasoby.cpp.obj"

@@ -1,0 +1,650 @@
+{
+    "2024-02-29": [
+        {
+            "localTime": "12:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-03-01": [
+        {
+            "localTime": "13:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-03-02": [
+        {
+            "circuit": "Bahrain International Circuit",
+            "localTime": "16:00:00",
+            "name": "Bahrain Grand Prix"
+        }
+    ],
+    "2024-03-07": [
+        {
+            "localTime": "14:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "18:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-03-08": [
+        {
+            "localTime": "14:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "18:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-03-09": [
+        {
+            "circuit": "Jeddah Corniche Circuit",
+            "localTime": "18:00:00",
+            "name": "Saudi Arabian Grand Prix"
+        }
+    ],
+    "2024-03-22": [
+        {
+            "localTime": "02:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "06:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-03-23": [
+        {
+            "localTime": "02:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "06:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-03-24": [
+        {
+            "circuit": "Albert Park Grand Prix Circuit",
+            "localTime": "05:00:00",
+            "name": "Australian Grand Prix"
+        }
+    ],
+    "2024-04-05": [
+        {
+            "localTime": "04:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "08:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-04-06": [
+        {
+            "localTime": "04:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "08:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-04-07": [
+        {
+            "circuit": "Suzuka Circuit",
+            "localTime": "07:00:00",
+            "name": "Japanese Grand Prix"
+        }
+    ],
+    "2024-04-19": [
+        {
+            "localTime": "05:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "09:30:00",
+            "name": "Sprint Qualifying"
+        }
+    ],
+    "2024-04-20": [
+        {
+            "localTime": "09:00:00",
+            "name": "Qualifying"
+        },
+        {
+            "localTime": "05:00:00",
+            "name": "Sprint"
+        }
+    ],
+    "2024-04-21": [
+        {
+            "circuit": "Shanghai International Circuit",
+            "localTime": "09:00:00",
+            "name": "Chinese Grand Prix"
+        }
+    ],
+    "2024-05-03": [
+        {
+            "localTime": "18:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "22:30:00",
+            "name": "Sprint Qualifying"
+        }
+    ],
+    "2024-05-04": [
+        {
+            "localTime": "22:00:00",
+            "name": "Qualifying"
+        },
+        {
+            "localTime": "18:00:00",
+            "name": "Sprint"
+        }
+    ],
+    "2024-05-05": [
+        {
+            "circuit": "Miami International Autodrome",
+            "localTime": "22:00:00",
+            "name": "Miami Grand Prix"
+        }
+    ],
+    "2024-05-17": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-05-18": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-05-19": [
+        {
+            "circuit": "Autodromo Enzo e Dino Ferrari",
+            "localTime": "15:00:00",
+            "name": "Emilia Romagna Grand Prix"
+        }
+    ],
+    "2024-05-24": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-05-25": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-05-26": [
+        {
+            "circuit": "Circuit de Monaco",
+            "localTime": "15:00:00",
+            "name": "Monaco Grand Prix"
+        }
+    ],
+    "2024-06-07": [
+        {
+            "localTime": "19:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "23:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-06-08": [
+        {
+            "localTime": "18:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "22:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-06-09": [
+        {
+            "circuit": "Circuit Gilles Villeneuve",
+            "localTime": "20:00:00",
+            "name": "Canadian Grand Prix"
+        }
+    ],
+    "2024-06-21": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-06-22": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-06-23": [
+        {
+            "circuit": "Circuit de Barcelona-Catalunya",
+            "localTime": "15:00:00",
+            "name": "Spanish Grand Prix"
+        }
+    ],
+    "2024-06-28": [
+        {
+            "localTime": "12:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "16:30:00",
+            "name": "Sprint Qualifying"
+        }
+    ],
+    "2024-06-29": [
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        },
+        {
+            "localTime": "12:00:00",
+            "name": "Sprint"
+        }
+    ],
+    "2024-06-30": [
+        {
+            "circuit": "Red Bull Ring",
+            "localTime": "15:00:00",
+            "name": "Austrian Grand Prix"
+        }
+    ],
+    "2024-07-05": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-07-06": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-07-07": [
+        {
+            "circuit": "Silverstone Circuit",
+            "localTime": "16:00:00",
+            "name": "British Grand Prix"
+        }
+    ],
+    "2024-07-19": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-07-20": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-07-21": [
+        {
+            "circuit": "Hungaroring",
+            "localTime": "15:00:00",
+            "name": "Hungarian Grand Prix"
+        }
+    ],
+    "2024-07-26": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-07-27": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-07-28": [
+        {
+            "circuit": "Circuit de Spa-Francorchamps",
+            "localTime": "15:00:00",
+            "name": "Belgian Grand Prix"
+        }
+    ],
+    "2024-08-23": [
+        {
+            "localTime": "12:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-08-24": [
+        {
+            "localTime": "11:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-08-25": [
+        {
+            "circuit": "Circuit Park Zandvoort",
+            "localTime": "15:00:00",
+            "name": "Dutch Grand Prix"
+        }
+    ],
+    "2024-08-30": [
+        {
+            "localTime": "13:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "17:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-08-31": [
+        {
+            "localTime": "12:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "16:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-09-01": [
+        {
+            "circuit": "Autodromo Nazionale di Monza",
+            "localTime": "15:00:00",
+            "name": "Italian Grand Prix"
+        }
+    ],
+    "2024-09-13": [
+        {
+            "localTime": "11:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-09-14": [
+        {
+            "localTime": "10:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "14:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-09-15": [
+        {
+            "circuit": "Baku City Circuit",
+            "localTime": "13:00:00",
+            "name": "Azerbaijan Grand Prix"
+        }
+    ],
+    "2024-09-20": [
+        {
+            "localTime": "11:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-09-21": [
+        {
+            "localTime": "11:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-09-22": [
+        {
+            "circuit": "Marina Bay Street Circuit",
+            "localTime": "14:00:00",
+            "name": "Singapore Grand Prix"
+        }
+    ],
+    "2024-10-18": [
+        {
+            "localTime": "19:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "23:30:00",
+            "name": "Sprint Qualifying"
+        }
+    ],
+    "2024-10-19": [
+        {
+            "localTime": "00:00:00",
+            "name": "Qualifying"
+        },
+        {
+            "localTime": "20:00:00",
+            "name": "Sprint"
+        }
+    ],
+    "2024-10-20": [
+        {
+            "circuit": "Circuit of the Americas",
+            "localTime": "21:00:00",
+            "name": "United States Grand Prix"
+        }
+    ],
+    "2024-10-25": [
+        {
+            "localTime": "20:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "00:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-10-26": [
+        {
+            "localTime": "19:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "23:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-10-27": [
+        {
+            "circuit": "Autódromo Hermanos Rodríguez",
+            "localTime": "21:00:00",
+            "name": "Mexico City Grand Prix"
+        }
+    ],
+    "2024-11-01": [
+        {
+            "localTime": "15:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "19:30:00",
+            "name": "Sprint Qualifying"
+        }
+    ],
+    "2024-11-02": [
+        {
+            "localTime": "19:00:00",
+            "name": "Qualifying"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Sprint"
+        }
+    ],
+    "2024-11-03": [
+        {
+            "circuit": "Autódromo José Carlos Pace",
+            "localTime": "18:00:00",
+            "name": "São Paulo Grand Prix"
+        }
+    ],
+    "2024-11-21": [
+        {
+            "localTime": "03:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "07:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-11-22": [
+        {
+            "localTime": "03:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "07:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-11-23": [
+        {
+            "circuit": "Las Vegas Strip Street Circuit",
+            "localTime": "07:00:00",
+            "name": "Las Vegas Grand Prix"
+        }
+    ],
+    "2024-11-29": [
+        {
+            "localTime": "14:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "18:30:00",
+            "name": "Sprint Qualifying"
+        }
+    ],
+    "2024-11-30": [
+        {
+            "localTime": "19:00:00",
+            "name": "Qualifying"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Sprint"
+        }
+    ],
+    "2024-12-01": [
+        {
+            "circuit": "Losail International Circuit",
+            "localTime": "17:00:00",
+            "name": "Qatar Grand Prix"
+        }
+    ],
+    "2024-12-06": [
+        {
+            "localTime": "10:30:00",
+            "name": "First Practice"
+        },
+        {
+            "localTime": "14:00:00",
+            "name": "Second Practice"
+        }
+    ],
+    "2024-12-07": [
+        {
+            "localTime": "11:30:00",
+            "name": "Third Practice"
+        },
+        {
+            "localTime": "15:00:00",
+            "name": "Qualifying"
+        }
+    ],
+    "2024-12-08": [
+        {
+            "circuit": "Yas Marina Circuit",
+            "localTime": "14:00:00",
+            "name": "Abu Dhabi Grand Prix"
+        }
+    ]
+}

@@ -27,8 +27,6 @@ set(PROJECT_SOURCES
         Glowna.h
         FetchData.cpp
         FetchData.h
-        Save_Load.cpp
-        Save_Load.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -1,34 +1,41 @@
 #ifndef KALENDARZ_H
 #define KALENDARZ_H
 
+#include <QApplication>
 #include <QWidget>
-#include <QPushButton>
+#include <QGridLayout>
 #include <QLabel>
+#include <QPushButton>
+#include <QDate>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QFile>
+#include <QMap>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
-#include <QGridLayout>
-#include <QDate>
+#include <QDebug>
+#include <QStandardPaths>
 
 class Kalendarz : public QWidget {
     Q_OBJECT
 
 public:
-    Kalendarz(QWidget *parent = nullptr);
+    explicit Kalendarz(QWidget *parent = nullptr);
+    void wczytajDaty(const QString &filePath);
 
 private slots:
-    void poprzMiesiac();
-    void nastMiesiac();
+    void poprzMonth();
+    void nastMonth();
 
 private:
-    QLabel *rokLabel;
-    QVBoxLayout *mainLayout;
-    QHBoxLayout *headerLayout;
-    QGridLayout *kalLayout;
-    QDate aktData;
-    QWidget *calendarContainer;
-
     void update();
-    void tworzKalendarz();
+    QString etykieta(const QDate &date);
+
+    QLabel *miesLabel;
+    QGridLayout *kalendarzLayout;
+    QDate Data;
+    QMap<QDate, QStringList> wydarzenia;
 };
 
 #endif // KALENDARZ_H

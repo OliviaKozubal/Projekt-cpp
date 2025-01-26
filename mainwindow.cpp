@@ -4,7 +4,6 @@
 #include "Wyniki.h"
 #include "Kierowcy.h"
 #include "FetchData.h"
-#include <QVBoxLayout>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) 
 {
@@ -18,8 +17,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 
     stackedWidget = new QStackedWidget(this);
 
-    Glowna *glownaPage = new Glowna(this);
-    stackedWidget->addWidget(glownaPage); 
+    Glowna *glownaStrona = new Glowna(this);
+    stackedWidget->addWidget(glownaStrona); 
     stackedWidget->addWidget(new Kalendarz(this));
     stackedWidget->addWidget(new Wyniki(this));
     stackedWidget->addWidget(new Kierowcy(this));

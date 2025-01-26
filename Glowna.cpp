@@ -1,8 +1,5 @@
 #include "Glowna.h"
 #include "FetchData.h"
-#include <QTimer>
-#include <QDateTime>
-#include <QHeaderView>
 
 Glowna::Glowna(QWidget *parent) : QWidget(parent) {
     

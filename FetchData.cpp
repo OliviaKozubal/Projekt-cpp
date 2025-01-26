@@ -1,9 +1,4 @@
 #include "FetchData.h"
-#include <QJsonDocument>
-#include <QJsonObject>
-#include <QJsonArray>
-#include <QDateTime>
-#include <QTimeZone>
 
 FetchData::FetchData(QObject *parent) : QObject(parent)
 {
@@ -74,12 +69,6 @@ void FetchData::onNetworkReply(QNetworkReply *reply)
             RankingReply(jsonDoc);
         else if (zadanie.startsWith("Kierowcy"))
             KierowcyReply(jsonDoc, zadanie);
-        //else if (zadanie == "Sezony")
-            //SezonyReply(jsonDoc);
-       // else if (zadanie.startsWith("MistrzowieKonstruktorzy:")) {
-            //QString rok = zadanie.split(":")[1];
-            //MistrzowieKonstruktorzyReply(jsonDoc, rok);
-        //}
         else
             qWarning() << "Błąd pobierania danych:" << reply->errorString();
     }

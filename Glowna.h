@@ -5,7 +5,9 @@
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QTableWidget>
-#include "FetchData.h"
+#include <QTimer>
+#include <QDateTime>
+#include <QHeaderView>
 
 class Glowna : public QWidget {
     Q_OBJECT

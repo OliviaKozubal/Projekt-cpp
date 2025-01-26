@@ -1,12 +1,17 @@
 C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/EWIEGA46WW/moc_FetchData.cpp: C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/FetchData.h \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QDateTime \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QFlags \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QIODevice \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonArray \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonDocument \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QMetaType \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QSharedDataPointer \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QTimeZone \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QUrl \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QVariant \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
@@ -30,6 +35,8 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearrayview.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcalendar.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qcborcommon.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qcborvalue.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -46,6 +53,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qfloat16.h \
@@ -61,6 +69,10 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qiterator.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsonarray.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsondocument.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsonobject.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsonvalue.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qlist.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qlocale.h \
@@ -81,6 +93,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qset.h \
@@ -113,6 +126,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qtimezone.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -125,6 +139,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtypes.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/quuid.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \

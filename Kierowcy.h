@@ -10,6 +10,14 @@
 #include <QComboBox>
 #include <QLineEdit>
 #include <QHBoxLayout>
+#include <QFile>
+#include <QJsonDocument>
+#include <QList>
+#include <QStringList>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QTextStream>
+#include <QCoreApplication>
 
 class Kierowcy : public QWidget {
     Q_OBJECT

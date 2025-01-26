@@ -1,6 +1,5 @@
 #include "Kierowcy.h"
 #include "FetchData.h"
-#include "Save_Load.h"
 
 Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(this)), TablicaKierowcy(new QTableWidget(this)), sortComboBox(new QComboBox(this)), filtrComboBox(new QComboBox(this)), searchLineEdit(new QLineEdit(this)), searchByComboBox(new QComboBox(this))
 {
@@ -44,7 +43,8 @@ Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(th
 
 void Kierowcy::Kierowcy_z_pliku()
 {
-    QFile file("C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/kierowcy.json");
+    QString sciezka = QCoreApplication::applicationDirPath() + "/kierowcy.json";
+    QFile file(sciezka);
     if (!file.open(QIODevice::ReadOnly)) {
         return;
     }
@@ -72,7 +72,7 @@ void Kierowcy::Kierowcy_z_pliku()
     wyswietlKierowcy(kierowcy);
 }
 
-void Kierowcy::onKierowcaClicked(int row, int column)
+void Kierowcy::onKierowcaClicked(int row, int column)  // do dopracowania
 {
     QString imieNazwisko = TablicaKierowcy->item(row, 0)->text();
 
@@ -90,9 +90,9 @@ void Kierowcy::onKierowcaClicked(int row, int column)
 void Kierowcy::Sortuj(int index)
 {
     auto sortujNazwisko = [](const QStringList &name1, const QStringList &name2) -> bool {
-        QStringList parts1 = name1[0].split(" ");
-        QStringList parts2 = name2[0].split(" ");
-        return parts1.last().compare(parts2.last()) < 0;
+        QStringList p1 = name1[0].split(" ");
+        QStringList p2 = name2[0].split(" ");
+        return p1.last().compare(p2.last()) < 0;
     };
 
     if (index == 0) {  // Alfabetycznie rosnąco
@@ -162,7 +162,8 @@ void Kierowcy::FiltrujFiltr(int index)
         przefiltrowani = kierowcyLista;
      else if (index == 1) {
         QList<QString> mistrzID;
-        QFile file("C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/mistrzowie.json");
+        QString sciezka = QCoreApplication::applicationDirPath() + "/mistrzowie.json";
+        QFile file(sciezka);
         if (file.open(QIODevice::ReadOnly)) {
             QByteArray data = file.readAll();
             file.close();

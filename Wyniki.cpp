@@ -1,6 +1,4 @@
 #include "Wyniki.h"
-#include <QVBoxLayout>
-#include <QLabel>
 
 Wyniki::Wyniki(QWidget *parent) : QWidget(parent) {
     QVBoxLayout *layout = new QVBoxLayout(this);
