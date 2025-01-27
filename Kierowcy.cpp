@@ -3,6 +3,8 @@
 
 Kierowcy::Kierowcy(QWidget *parent) : QWidget(parent), layout(new QVBoxLayout(this)), TablicaKierowcy(new QTableWidget(this)), sortComboBox(new QComboBox(this)), filtrComboBox(new QComboBox(this)), searchLineEdit(new QLineEdit(this)), searchByComboBox(new QComboBox(this))
 {
+    searchLineEdit->setPlaceholderText("Wyszukaj... ");
+
     TablicaKierowcy->setColumnCount(2);
     TablicaKierowcy->setHorizontalHeaderLabels({"Imię i Nazwisko", "Narodowość"});
     TablicaKierowcy->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
@@ -72,19 +74,100 @@ void Kierowcy::Kierowcy_z_pliku()
     wyswietlKierowcy(kierowcy);
 }
 
-void Kierowcy::onKierowcaClicked(int row, int column)  // do dopracowania
+void Kierowcy::onKierowcaClicked(int row, int column)
 {
-    QString imieNazwisko = TablicaKierowcy->item(row, 0)->text();
+    QString driverId = przefiltrowani[row][2];
 
-    QWidget *nowaPodstrona = new QWidget;
-    QVBoxLayout *layout = new QVBoxLayout(nowaPodstrona);
+    if (driverId.isEmpty()) {
+        return;
+    }
 
-    layout->addWidget(new QLabel("Szczegóły kierowcy:"));
-    layout->addWidget(new QLabel(imieNazwisko));
+    QString imieNazwisko, narodowosc;
+    int wygrane = 0, maxPoz = -1;
+    QList<QString> lataMistrzostw;
 
-    nowaPodstrona->setLayout(layout);
-    nowaPodstrona->setWindowTitle("Szczegóły Kierowcy");
-    nowaPodstrona->showMaximized();
+    for (const auto& kierowca : kierowcyLista) {
+        if (kierowca[2] == driverId) {
+            imieNazwisko = kierowca[0];
+            narodowosc = kierowca[1];
+            break;
+        }
+    }
+
+    QString sciezkaWygPoz = QCoreApplication::applicationDirPath() + "/wyg_poz.json";
+    QFile fileWygPoz(sciezkaWygPoz);
+    if (fileWygPoz.open(QIODevice::ReadOnly)) {
+        QByteArray data = fileWygPoz.readAll();
+        fileWygPoz.close();
+
+        QJsonDocument doc = QJsonDocument::fromJson(data);
+        QJsonArray jsonArray = doc.array();
+        for (const QJsonValue &value : jsonArray) {
+            if (value.isObject()) {
+                QJsonObject obj = value.toObject();
+                if (obj["driverId"].toString() == driverId) {
+                    wygrane = obj["wygrane"].toInt();
+                    maxPoz = obj["max_poz"].isNull() ? -1 : obj["max_poz"].toInt();
+                    break;
+                }
+            }
+        }
+    }
+
+    QString sciezkaMistrzowie = QCoreApplication::applicationDirPath() + "/mistrzowie.json";
+    QFile fileMistrzowie(sciezkaMistrzowie);
+    if (fileMistrzowie.open(QIODevice::ReadOnly)) {
+        QByteArray data = fileMistrzowie.readAll();
+        fileMistrzowie.close();
+
+        QJsonDocument doc = QJsonDocument::fromJson(data);
+        QJsonArray jsonArray = doc.array();
+        for (const QJsonValue &value : jsonArray) {
+            if (value.isObject()) {
+                QJsonObject obj = value.toObject();
+                if (obj["driverid"].toString() == driverId) {
+                    lataMistrzostw.append(obj["rok"].toString());
+                }
+            }
+        }
+    }
+
+    QWidget *szczegolyOkno = new QWidget;
+    QVBoxLayout *layout = new QVBoxLayout(szczegolyOkno);
+
+    szczegolyOkno->setStyleSheet("border: 5px solid red");
+
+    QLabel *imieNazwiskoLabel = new QLabel(imieNazwisko);
+    imieNazwiskoLabel->setAlignment(Qt::AlignCenter);
+    imieNazwiskoLabel->setStyleSheet("font-size: 30px; font-weight: bold");
+
+    QLabel *narodowoscLabel = new QLabel("<b>Narodowość:</b> " + narodowosc);
+    narodowoscLabel->setStyleSheet("font-size: 20px;");
+    narodowoscLabel->setAlignment(Qt::AlignCenter);
+
+    QLabel *wygraneLabel = new QLabel("<b>Liczba wygranych:</b> " + QString::number(wygrane));
+    wygraneLabel->setStyleSheet("font-size: 20px");
+    wygraneLabel->setAlignment(Qt::AlignCenter);
+
+    QLabel *maxPozLabel = new QLabel("<b>Najwyższa osiągnieta pozycja:</b> " + (maxPoz == -1 ? "Brak danych" : QString::number(maxPoz)));
+    maxPozLabel->setStyleSheet("font-size: 20px");
+    maxPozLabel->setAlignment(Qt::AlignCenter);
+
+    layout->addWidget(imieNazwiskoLabel);
+    layout->addWidget(narodowoscLabel);
+    layout->addWidget(wygraneLabel);
+    layout->addWidget(maxPozLabel);
+
+    if (!lataMistrzostw.isEmpty()) {
+        QLabel *mistrzostwaLabel = new QLabel("<b>Lata mistrzostw:</b> " + lataMistrzostw.join(", "));
+        mistrzostwaLabel->setStyleSheet("font-size: 20px");
+        mistrzostwaLabel->setAlignment(Qt::AlignCenter);
+        layout->addWidget(mistrzostwaLabel);
+    }
+
+    szczegolyOkno->setLayout(layout);
+    szczegolyOkno->setWindowTitle("Szczegóły Kierowcy");
+    szczegolyOkno->showMaximized();
 }
 
 void Kierowcy::Sortuj(int index)

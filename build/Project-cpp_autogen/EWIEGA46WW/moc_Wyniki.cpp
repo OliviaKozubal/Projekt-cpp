@@ -7,6 +7,7 @@
 *****************************************************************************/
 
 #include "../../../Wyniki.h"
+#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
 #include <QtCore/qtmochelpers.h>
@@ -35,7 +36,12 @@ namespace {
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSWynikiENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSWynikiENDCLASS = QtMocHelpers::stringData(
-    "Wyniki"
+    "Wyniki",
+    "filtruj",
+    "",
+    "wyswietl",
+    "r",
+    "c"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -48,12 +54,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSWynikiENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   26,    2, 0x08,    1 /* Private */,
+       3,    2,   27,    2, 0x08,    2 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,    4,    5,
 
        0        // eod
 };
@@ -66,17 +80,28 @@ Q_CONSTINIT const QMetaObject Wyniki::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSWynikiENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<Wyniki, std::true_type>
+        QtPrivate::TypeAndForceComplete<Wyniki, std::true_type>,
+        // method 'filtruj'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'wyswietl'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
 
 void Wyniki::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    (void)_o;
-    (void)_id;
-    (void)_c;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<Wyniki *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->filtruj(); break;
+        case 1: _t->wyswietl((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        default: ;
+        }
+    }
 }
 
 const QMetaObject *Wyniki::metaObject() const
@@ -95,6 +120,17 @@ void *Wyniki::qt_metacast(const char *_clname)
 int Wyniki::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 2;
+    }
     return _id;
 }
 QT_WARNING_POP
