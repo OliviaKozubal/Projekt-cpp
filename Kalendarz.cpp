@@ -1,6 +1,7 @@
+// plik tworzący kalendarz
 #include "kalendarz.h"
 
-Kalendarz::Kalendarz(QWidget *parent) : QWidget(parent), Data(QDate(2024, QDate::currentDate().month(), 1)) {
+Kalendarz::Kalendarz(QWidget *parent) : QWidget(parent), Data(QDate(2024, QDate::currentDate().month(), QDate::currentDate().day())) {
     auto *mainLayout = new QVBoxLayout(this);
 
     auto *headerLayout = new QHBoxLayout();
@@ -12,20 +13,21 @@ Kalendarz::Kalendarz(QWidget *parent) : QWidget(parent), Data(QDate(2024, QDate:
     headerLayout->addWidget(poprzButton);
     headerLayout->addWidget(miesLabel);
     headerLayout->addWidget(nastButton);
-    mainLayout->addLayout(headerLayout);
 
     kalendarzLayout = new QGridLayout();
+
+    mainLayout->addLayout(headerLayout);
     mainLayout->addLayout(kalendarzLayout);
 
     connect(poprzButton, &QPushButton::clicked, this, &Kalendarz::poprzMonth);
     connect(nastButton, &QPushButton::clicked, this, &Kalendarz::nastMonth);
 
-    QString sciezka = QCoreApplication::applicationDirPath() + "/daty_2024.json";
+    QString sciezka = QCoreApplication::applicationDirPath() + "/daty_2024.json"; // sciezka do pliku daty_2024.json
     wczytajDaty(sciezka);
     update();
 }
 
-void Kalendarz::wczytajDaty(const QString &sciezka) {
+void Kalendarz::wczytajDaty(const QString &sciezka) { // funkcja wczytująca wydarzenia z pliku daty_024.json
     QFile file(sciezka);
     if (!file.open(QIODevice::ReadOnly))
         return;
@@ -36,38 +38,35 @@ void Kalendarz::wczytajDaty(const QString &sciezka) {
     QJsonDocument doc = QJsonDocument::fromJson(data);
 
     QJsonObject root = doc.object();
-    for (const QString &dateString : root.keys()) {
-        QDate date = QDate::fromString(dateString, "yyyy-MM-dd");
+    for (const QString &dataString : root.keys()) {
+        QDate data = QDate::fromString(dataString, "yyyy-MM-dd");
 
-        QJsonArray eventArray = root.value(dateString).toArray();
-        for (const QJsonValue &value : eventArray) {
+        QJsonArray tablicaDaty = root.value(dataString).toArray();
+        for (const QJsonValue &value : tablicaDaty) {
             if (value.isObject()) {
-                QJsonObject eventObject = value.toObject();
-                QString nazwa = eventObject.value("name").toString();
-                QString localTime = eventObject.value("localTime").toString();
+                QJsonObject wydarzenie = value.toObject();
+                QString nazwa = wydarzenie.value("name").toString();
+                QString czasLokalny = wydarzenie.value("localTime").toString();
 
-                QTime czas = QTime::fromString(localTime, "HH:mm:ss");
-                QString kCzas = czas.toString("HH:mm");
-
-                QString szczegoly = nazwa + " (" + kCzas + ")";
+                QString szczegoly = nazwa + " (" + QTime::fromString(czasLokalny, "HH:mm:ss").toString("HH:mm") + ")"; // stworzenie stringa który zostanie umieszczony w kalendarzu
                 if (!nazwa.isEmpty()) {
-                    wydarzenia[date].append(szczegoly);
+                    wydarzenia[data].append(szczegoly);
                 }}}}
 }
 
-void Kalendarz::poprzMonth() {
+void Kalendarz::poprzMonth() { // funkcja umożliwiająca przejście na poprzedni miesiąc
     if (Data.month() == 1) return;
     Data = Data.addMonths(-1);
     update();
 }
 
-void Kalendarz::nastMonth() {
+void Kalendarz::nastMonth() { // funkcja umożliwiająca przejście na następny miesiąc
     if (Data.month() == 12) return;
     Data = Data.addMonths(1);
     update();
 }
 
-void Kalendarz::update() {
+void Kalendarz::update() { // funkcja tworząca stronę kalendarza
     miesLabel->setText(Data.toString("MMMM yyyy"));
     miesLabel->setStyleSheet("font-size: 24px; font-weight: bold;");
 
@@ -77,7 +76,7 @@ void Kalendarz::update() {
         delete item;
     }
 
-    QStringList dni = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+    QStringList dni = {"Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota", "Niedziela"};
     for (int i = 0; i < dni.size(); ++i) {
         auto *label = new QLabel(dni[i], this);
         label->setAlignment(Qt::AlignCenter);
@@ -85,26 +84,26 @@ void Kalendarz::update() {
         kalendarzLayout->addWidget(label, 0, i);
     }
 
-    QDate pierwszyDzien(Data.year(), Data.month(), 1);
-    int col1 = (pierwszyDzien.dayOfWeek() + 5) % 7;
+    QDate d(Data.year(), Data.month(), 1); // od jakiego dnia zaczyna się miesiąc
+    int col1 = (d.dayOfWeek() + 5) % 7;
     int row = 1;
 
-    for (int i = 0; i < col1; ++i) {
-        auto *emptyLabel = new QLabel(this);
-        emptyLabel->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px;");
-        kalendarzLayout->addWidget(emptyLabel, row, i);
+    for (int i = 0; i < col1; ++i) { // puste pola przed pierwszym dniem miesiąca
+        auto *pustePola = new QLabel(this);
+        pustePola->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px;");
+        kalendarzLayout->addWidget(pustePola, row, i);
     }
 
-    for (int day = 1; day <= pierwszyDzien.daysInMonth(); ++day) {
-        QDate date(Data.year(), Data.month(), day);
+    for (int dzien = 1; dzien <= d.daysInMonth(); ++dzien) { // tworzenie okien kalendarza z datami oraz wydarzeniami (jeśli są)
+        QDate data(Data.year(), Data.month(), dzien);
 
-        QString text = QString::number(day);
-        QString eventText = etykieta(date);
-        if (!eventText.isEmpty()) {
-            text += "\n\n" + eventText;
+        QString tekst = QString::number(dzien);
+        QString wydarzenie = etykieta(data);
+        if (!wydarzenie.isEmpty()) {
+            tekst += "\n\n" + wydarzenie;
         }
 
-        auto *label = new QLabel(text, this);
+        auto *label = new QLabel(tekst, this);
         label->setAlignment(Qt::AlignTop | Qt::AlignHCenter);
         label->setWordWrap(true);
 
@@ -117,17 +116,17 @@ void Kalendarz::update() {
         }
     }
 
-    while (col1 <= 6) {
-        auto *emptyLabel = new QLabel(this);
-        emptyLabel->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px;");
-        kalendarzLayout->addWidget(emptyLabel, row, col1++);
+    while (col1 <= 6) { // uzupełnianie do końca pustych okien
+        auto *pustePola = new QLabel(this);
+        pustePola->setStyleSheet("border: 2px solid red; border-radius: 5px; padding: 5px;");
+        kalendarzLayout->addWidget(pustePola, row, col1++);
     }
 }
 
-QString Kalendarz::etykieta(const QDate &date) {
+QString Kalendarz::etykieta(const QDate &data) { // tworzenie etykiet wydarzeń
     QStringList szczegoly;
-    if (wydarzenia.contains(date))
-        for (const QString &event : wydarzenia.value(date))
-            szczegoly.append(event); 
+    if (wydarzenia.contains(data))
+        for (const QString &wydarzenie : wydarzenia.value(data))
+            szczegoly.append(wydarzenie); 
     return szczegoly.join("\n");
 }

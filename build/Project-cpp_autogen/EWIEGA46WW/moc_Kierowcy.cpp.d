@@ -185,9 +185,11 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QComboBox \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QFormLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHeaderView \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QListWidget \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QTableWidget \
@@ -200,6 +202,7 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qcombobox.h \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qformlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qheaderview.h \

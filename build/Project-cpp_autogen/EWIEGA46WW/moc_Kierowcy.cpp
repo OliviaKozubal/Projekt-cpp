@@ -43,15 +43,28 @@ constexpr auto qt_meta_stringdata_CLASSKierowcyENDCLASS = QtMocHelpers::stringDa
     "wyswietlKierowcy",
     "QList<QStringList>",
     "kierowcy",
-    "onKierowcaClicked",
-    "row",
-    "column",
     "Sortuj",
     "index",
     "FiltrujWyszukaj",
     "Wyszukaj",
     "Filtr",
-    "FiltrujFiltr"
+    "FiltrujFiltr",
+    "kierowcaKlikniety",
+    "row",
+    "column",
+    "update",
+    "dane",
+    "rok",
+    "QTableWidget*",
+    "tabela",
+    "sezonyKierowcy",
+    "wyswietlSzczegoly",
+    "QVBoxLayout*",
+    "layout",
+    "lataMistrzostw",
+    "wczytajSzczegoly",
+    "driverId",
+    "mistrzostwa"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -64,7 +77,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSKierowcyENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+      13,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -72,24 +85,34 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSKierowcyENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   62,    2, 0x0a,    1 /* Public */,
-       3,    1,   63,    2, 0x0a,    2 /* Public */,
-       6,    2,   66,    2, 0x0a,    4 /* Public */,
-       9,    1,   71,    2, 0x0a,    7 /* Public */,
-      11,    1,   74,    2, 0x0a,    9 /* Public */,
-      12,    0,   77,    2, 0x0a,   11 /* Public */,
-      13,    0,   78,    2, 0x0a,   12 /* Public */,
-      14,    1,   79,    2, 0x0a,   13 /* Public */,
+       1,    0,   92,    2, 0x0a,    1 /* Public */,
+       3,    1,   93,    2, 0x0a,    2 /* Public */,
+       6,    1,   96,    2, 0x0a,    4 /* Public */,
+       8,    1,   99,    2, 0x0a,    6 /* Public */,
+       9,    0,  102,    2, 0x0a,    8 /* Public */,
+      10,    0,  103,    2, 0x0a,    9 /* Public */,
+      11,    1,  104,    2, 0x0a,   10 /* Public */,
+      12,    2,  107,    2, 0x0a,   12 /* Public */,
+      15,    3,  112,    2, 0x0a,   15 /* Public */,
+      20,    1,  119,    2, 0x0a,   19 /* Public */,
+      21,    3,  122,    2, 0x0a,   21 /* Public */,
+      25,    1,  129,    2, 0x0a,   25 /* Public */,
+      27,    1,  132,    2, 0x0a,   27 /* Public */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 4,    5,
-    QMetaType::Void, QMetaType::Int, QMetaType::Int,    7,    8,
-    QMetaType::Void, QMetaType::Int,   10,
-    QMetaType::Void, QMetaType::Int,   10,
+    QMetaType::Void, QMetaType::Int,    7,
+    QMetaType::Void, QMetaType::Int,    7,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,   10,
+    QMetaType::Void, QMetaType::Int,    7,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int,   13,   14,
+    QMetaType::Void, QMetaType::QJsonObject, QMetaType::QString, 0x80000000 | 18,   16,   17,   19,
+    QMetaType::QStringList, QMetaType::QJsonObject,   16,
+    QMetaType::Void, 0x80000000 | 22, QMetaType::QJsonObject, QMetaType::QStringList,   23,   16,   24,
+    QMetaType::QJsonObject, QMetaType::QString,   26,
+    QMetaType::QStringList, QMetaType::QString,   26,
 
        0        // eod
 };
@@ -108,10 +131,6 @@ Q_CONSTINIT const QMetaObject Kierowcy::staticMetaObject = { {
         // method 'wyswietlKierowcy'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QList<QStringList> &, std::false_type>,
-        // method 'onKierowcaClicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'Sortuj'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<int, std::false_type>,
@@ -124,7 +143,30 @@ Q_CONSTINIT const QMetaObject Kierowcy::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'FiltrujFiltr'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'kierowcaKlikniety'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>,
+        // method 'update'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QJsonObject &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QTableWidget *, std::false_type>,
+        // method 'sezonyKierowcy'
+        QtPrivate::TypeAndForceComplete<QStringList, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QJsonObject &, std::false_type>,
+        // method 'wyswietlSzczegoly'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QVBoxLayout *, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QJsonObject &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QStringList &, std::false_type>,
+        // method 'wczytajSzczegoly'
+        QtPrivate::TypeAndForceComplete<QJsonObject, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'mistrzostwa'
+        QtPrivate::TypeAndForceComplete<QStringList, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
     >,
     nullptr
 } };
@@ -137,12 +179,20 @@ void Kierowcy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         switch (_id) {
         case 0: _t->Kierowcy_z_pliku(); break;
         case 1: _t->wyswietlKierowcy((*reinterpret_cast< std::add_pointer_t<QList<QStringList>>>(_a[1]))); break;
-        case 2: _t->onKierowcaClicked((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
-        case 3: _t->Sortuj((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 4: _t->FiltrujWyszukaj((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 5: _t->Wyszukaj(); break;
-        case 6: _t->Filtr(); break;
-        case 7: _t->FiltrujFiltr((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 2: _t->Sortuj((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 3: _t->FiltrujWyszukaj((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 4: _t->Wyszukaj(); break;
+        case 5: _t->Filtr(); break;
+        case 6: _t->FiltrujFiltr((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 7: _t->kierowcaKlikniety((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        case 8: _t->update((*reinterpret_cast< std::add_pointer_t<QJsonObject>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QTableWidget*>>(_a[3]))); break;
+        case 9: { QStringList _r = _t->sezonyKierowcy((*reinterpret_cast< std::add_pointer_t<QJsonObject>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
+        case 10: _t->wyswietlSzczegoly((*reinterpret_cast< std::add_pointer_t<QVBoxLayout*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QJsonObject>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QStringList>>(_a[3]))); break;
+        case 11: { QJsonObject _r = _t->wczytajSzczegoly((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QJsonObject*>(_a[0]) = std::move(_r); }  break;
+        case 12: { QStringList _r = _t->mistrzostwa((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -153,6 +203,20 @@ void Kierowcy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
             default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
             case 0:
                 *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QList<QStringList> >(); break;
+            }
+            break;
+        case 8:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 2:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QTableWidget* >(); break;
+            }
+            break;
+        case 10:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
+            case 0:
+                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QVBoxLayout* >(); break;
             }
             break;
         }
@@ -178,13 +242,13 @@ int Kierowcy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 13;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 13;
     }
     return _id;
 }

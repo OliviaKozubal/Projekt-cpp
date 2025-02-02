@@ -1,13 +1,11 @@
 C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/EWIEGA46WW/moc_Kalendarz.cpp: C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/Kalendarz.h \
   C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/Project-cpp_autogen/moc_predefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QDate \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QFile \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonArray \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonDocument \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QMap \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QStandardPaths \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -108,7 +106,6 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qsize.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qspan.h \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/qstandardpaths.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qstring.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qstringbuilder.h \
@@ -182,15 +179,18 @@ C:/Users/Holin/Desktop/Studia/StudiaRok2/Semestr3/ProjektC++/Projekt-cpp/build/P
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QApplication \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QFormLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QVBoxLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/qformlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \

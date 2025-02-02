@@ -1,8 +1,10 @@
 #include "Wyniki.h"
 
 Wyniki::Wyniki(QWidget *parent) : QWidget(parent) {
+    
     wyszukiwarka = new QLineEdit(this);
     wyszukiwarka->setPlaceholderText("Wyszukaj... ");
+
     tablica = new QTableWidget(this);
     tablica->setColumnCount(2);
     tablica->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);

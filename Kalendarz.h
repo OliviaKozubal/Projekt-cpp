@@ -1,3 +1,4 @@
+// plik inicjalizujący funkcje i zmienne wykorzystywane w kalendarzu
 #ifndef KALENDARZ_H
 #define KALENDARZ_H
 
@@ -14,8 +15,7 @@
 #include <QMap>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
-#include <QDebug>
-#include <QStandardPaths>
+#include <QFormLayout>
 
 class Kalendarz : public QWidget {
     Q_OBJECT

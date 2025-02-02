@@ -1,3 +1,4 @@
+// plik definiujący funkcję i zmienne używane w kierowcy.cpp
 #ifndef KIEROWCY_H
 #define KIEROWCY_H
 
@@ -18,6 +19,7 @@
 #include <QJsonArray>
 #include <QTextStream>
 #include <QCoreApplication>
+#include <QFormLayout>
 
 class Kierowcy : public QWidget {
     Q_OBJECT
@@ -28,13 +30,18 @@ public:
 public slots:
     void Kierowcy_z_pliku();
     void wyswietlKierowcy(const QList<QStringList> &kierowcy);
-    void onKierowcaClicked(int row, int column);
     void Sortuj(int index);
     void FiltrujWyszukaj(int index);
     void Wyszukaj();
     void Filtr();
     void FiltrujFiltr(int index);
-
+    void kierowcaKlikniety(int row, int column);
+    void update(const QJsonObject &dane, const QString &rok, QTableWidget *tabela);
+    QStringList sezonyKierowcy(const QJsonObject &dane);
+    void wyswietlSzczegoly(QVBoxLayout *layout, const QJsonObject &dane, const QStringList &lataMistrzostw);
+    QJsonObject wczytajSzczegoly(const QString &driverId);
+    QStringList mistrzostwa(const QString &driverId);
+    
 private:
     QVBoxLayout *layout;
     QTableWidget *TablicaKierowcy;
