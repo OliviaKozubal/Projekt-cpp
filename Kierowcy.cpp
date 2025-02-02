@@ -199,11 +199,7 @@ void Kierowcy::kierowcaKlikniety(int row, int column) // mechanika wyświetlania
     QTableWidget *tabelaWyscigow = new QTableWidget; // stworzenie tabeli z wyścigami sezonu
     mainLayout->addWidget(tabelaWyscigow);
 
-    connect(sezonyLista, &QComboBox::currentTextChanged, [=](const QString &rok) {
-        if (rok != "Wybierz sezon") {
-            update(daneKierowcy, rok, tabelaWyscigow);
-        }
-    });
+    connect(sezonyLista, &QComboBox::currentTextChanged, [=](const QString &rok) { update(daneKierowcy, rok, tabelaWyscigow);});
     szczegolyOkno->showMaximized();
 }
 
