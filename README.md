@@ -6,7 +6,7 @@ System operacyjny: Windows
 Program tworzony w Visual Studio Code z zainstalowanym rozszerzeniem Qt
 https://code.visualstudio.com/ - link do instalacji Visual Studio Code
 https://www.qt.io/blog/new-qt-extension-for-visual-studio-code-1.0-published - link do instalacji i poradnika jak zainstalować rozszerzenie Qt do VSC
-https://doc.qt.io/qtcreator/ - link do instalacji Qt
+https://doc.qt.io/qtcreator/ - link do instalacji Qt. Dodatkowe biblioteki do instalacji w VSC - cmake, cmake tools.
 
 Po zainstalowaniu potrzebnych komponentów i ustawieniu w VSC scieżki do plików Qt oraz cmake, plik budujemy klawiszem F7, i kompilujemy skrótem klawiszowym Ctrl + F5.
 
